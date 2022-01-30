@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+env:
+  JSONCV_THEME: kendall
 jobs:
   build:
     runs-on: ubuntu-latest
