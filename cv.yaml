@@ -1,0 +1,104 @@
+meta:
+  theme: actual
+  version: v1.0.0
+  canonical: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json
+basics:
+  name: Germán Ignacio Fodino
+  label: DevOps - GameDev - Dev
+  image: 'https://github.com/gif30/cv/raw/main/me.jpg'
+
+  #summary: 'I’m a full stack web developer who can build apps from the ground up.
+  #  I''ve worked mostly at startups so I am use to wearing many hats. I am a very
+  #  product focussed developer who priotizes user feedback first and foremost. I''m
+  #  generally very flexible when investigating new roles. '
+  #summary: |
+  #  David is a technologist, full-stack web developer and project manager, specialising in open source and customised applications.  With a client-driven focus, David applies specialised knowledge of web technologies and IT security to his work, including frontend and backend development, UI & UX design, system administration, operations and end-user support.
+  #  He is passionate about users, accessibility, creating engaging user experiences (UX), open source, Python, JavaScript and Linux. His experience extends to other languages and aspects of technology, enthusiastically investigating and adapting to unseen (and challenging) IT & development environments.
+  #  David's personal strengths are his attention to detail, his initiative, holistic approaches to problem solving and professional integrity.  He believes in openness and honesty, advocating for users and fostering communities around information technology; he is an organiser of a regional developers' group and actively maintains/contributes to open source software.
+  #  He once recovered a very expensive electron microscope by restoring an ancient Solaris hard drive bit-by-bit (literally), has hiked islands and the outback to install technology and programs live devices underwater.
+
+  website: https://german-fodino.com
+  email: german.fodino@gmail.com
+
+  location:
+    city: Ciudad de Buenos Aires
+    countryCode: CABA
+    address: 'Av. Triunvirato 4125'
+    postalCode: 1431
+    region: Buenos Aires
+
+  profiles:
+    - network: GitHub
+      url: https://github.com/gif30
+      username: '@gif30'
+
+    - network: LinkedIn
+      url: https://www.linkedin.com/in/gifodino
+      username: "@gifodino"
+
+skills:
+  - name: DevOps
+    level: Very Advanced
+    keywords:
+      - Continous Integration (Tekton, Github actions, Gitlab CI )
+      - Continous Delivery (ArgoCD)
+      - IAC (Terraform, CDK)
+      - Scripting (Python, Shell)
+      - Cloud & On-Prem
+      - VMs, Containers & Serverless
+
+  - name: Containers
+    level: Expert
+    keywords:
+      - Docker
+      - Kubernetes (K8s, Openshift, AWS EKS)
+      - Cluster Administration
+      - App Deployment
+      - Networking - Service Mesh - API Gateway
+
+  - name: System Administration
+    level: Medium
+    keywords:
+      - Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
+      - Web servers (Nginx, Envoy) & app hosting
+      - Server configuration Automation (Ansible)
+      - Automated systems management & monitoring
+      - Kubernetes/Openshift Cluster Administrator
+
+  - name: Programming
+    level: Medium
+    keywords:
+      - Python
+      - TypeScript
+      - Node.js (JavaScript)
+      - Mobile - Flutter (Dart)
+      - Golang (Go)
+      - C | C++ | C#
+      - Open source development
+      - Version control & management (git)
+      - Game Development
+      - Web Scraping
+
+  - name: Observability
+    level: Basics/Medium
+    keywords:
+      - Monitoring (Grafana, Prometheus, InfluxDB)
+      - Logging (Loki, ElasticSearch (ELK), Fluentd)
+      - Alerting (AlertManager, Alerta.io, Slack)
+
+  - name: Management
+    level: Basics
+    keywords:
+      - Soft Skills
+      - Team/Chapter Lead
+      - Project management
+
+
+languages:
+- fluency: Native Speaker
+  language: Español (ES)
+- fluency: Advanced (C1)
+  language: Deutsch (DE)
+- fluency: Advanced (B2)
+  language: English (EN)
+

@@ -10,7 +10,7 @@
     "view": "yarn run export && open build/index.html",
     "view-pdf": "yarn run export-pdf && open build/cv.pdf",
     "predeploy": "yarn run export",
-    "test": "resume export cv.html --resume cv.yaml --theme actual && open build/index.html",
+    "test": "resume export build/index.html --resume cv.yaml --theme kendall && open build/index.html",
     "deploy": "gh-pages -d build/"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "handlebars": "^4.7.7",
     "helper-markdown": "^1.0.0",
     "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-kendall": "^0.2.0",
     "resume-cli": "^3.0.5",
     "yamljs": "^0.3.0"
   }
