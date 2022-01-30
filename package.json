@@ -1,0 +1,34 @@
+{
+  "name": "gif30-cv",
+  "version": "2.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "validate": "resume validate --resume cv.yaml",
+    "export": "resume export build/index.html --resume cv.yaml --theme $JSONCV_THEME",
+    "export-pdf": "resume export build/cv.pdf --resume cv.yaml --theme $JSONCV_THEME",
+    "view": "yarn run export && open build/index.html",
+    "view-pdf": "yarn run export-pdf && open build/cv.pdf",
+    "predeploy": "yarn run export",
+    "test": "resume export cv.html --resume cv.yaml --theme actual && open build/index.html",
+    "deploy": "gh-pages -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gif30/cv.git"
+  },
+  "author": "German Fodino",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gif30/cv/issues"
+  },
+  "homepage": "https://github.com/gif30/cv#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "handlebars": "^4.7.7",
+    "helper-markdown": "^1.0.0",
+    "jsonresume-theme-actual": "^0.1.6",
+    "resume-cli": "^3.0.5",
+    "yamljs": "^0.3.0"
+  }
+}
