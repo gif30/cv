@@ -53,7 +53,7 @@ skills:
       - Docker
       - Kubernetes (K8s, Openshift, AWS EKS)
       - Cluster Administration
-      - App Deployment
+      - App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
       - Networking - Service Mesh - API Gateway
 
   - name: System Administration
