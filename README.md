@@ -26,8 +26,9 @@ Any commit or change made to this repository will automatically deploy the
 changes to GitHub Pages.
 
 To build locally, however, run the following:
-
+    yarn install
     yarn
+    export JSONCV_THEME=kendall
     yarn view
 
 This will automatically build and display the resulting `cv.html` in your browser.
