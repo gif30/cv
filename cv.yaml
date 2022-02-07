@@ -57,6 +57,7 @@ skills:
       - Scripting (Python, Shell)
       - Cloud & On-Prem
       - VMs, Containers & Serverless
+      - Agile (Scrum/Kanban) 
 
   - name: Containers
     level: Expert
@@ -118,42 +119,71 @@ skills:
       - Management
       - Flexibilidad
       - Growth Mindset
-      - quick lerner
+      - Quick Lerner
       - Creatividad
-      - autoaprendizaje
+      - Autoaprendizaje
 
 education:
-- institution: Universidad Tecnológica Nacional
-  area: Ingeniería eléctrica, electrónica y de comunicaciones
-  studyType: Grado en Ingeniería
-  startDate: '2017-12-31'
-  endDate: '2026-12-31'
+- institution: "Colegio Pestalozzi / Pestalozzi Schule"
+  url: https://www.pestalozzi.edu.ar/
+  area: Educacion Primaria y Secundaria
+  studyType: Bachillerato Bilingüe en Ciencias y Letras con Idioma Aleman
+  startDate: '2011-12-31'
+  endDate: '2016-12-31'
   score: ''
   courses: []
-- institution: BBZ - BerufsBildungsZentrum - Centro de  Capacitación - Buenos Aires
+- institution: BBZ - BerufsBildungsZentrum - Centro de  Capacitación Profesional
+  url: https://bbz.iballester.edu.ar/
   area: Empresa, gestión, marketing y disciplinas afines
   studyType: Junior Manager en Administracion Industrial (Industriekaufmann)
   startDate: '2017-12-31'
   endDate: '2018-12-31'
   score: ''
   courses: []
-- institution: " Colegio Pestalozzi"
-  area: Ciencias naturales
-  studyType: Bachillerato Bilingüe en Ciencias y Letras con Idioma Aleman
-  startDate: '2011-12-31'
-  endDate: '2016-12-31'
+- institution: Universidad Tecnológica Nacional
+  url: https://utn.edu.ar/
+  area: Ingeniería electrónica y de comunicaciones
+  studyType: Grado en Ingeniería
+  startDate: '2017-12-31'
+  endDate: null
+  score: ''
+  courses: []
+- institution: Universidad Tecnológica Nacional
+  url: https://utn.edu.ar/
+  area: Ingeniería en Sistemas / Software
+  studyType: Grado en Ingeniería
+  startDate: '2020-12-31'
+  endDate: null
+  score: ''
+  courses: []
+- institution: DaVinci
+  url: https://davinci.edu.ar/
+  area: Arte Multimedia (Videojuegos)
+  studyType: Diseño y Programacion de Simuladores Virtuales
+  startDate: '2020-12-31'
+  endDate: null
   score: ''
   courses: []
 
 work:
-- name: Telecom Argentina
-  position: DevOps Engineer
-  startDate: '2021-07-31'
-  endDate: ''
-  highlights: []
-  summary:
-  url: https://www.linkedin.com/company/209495
-  location: Argentina
+- name: Sartorius
+  position: Intern
+  startDate: '2017-02-28'
+  endDate: '2018-12-31'
+  url: https://www.linkedin.com/company/15749
+  location: Gran Buenos Aires, Argentina
+  highlights: 
+    - Servicio Técnico
+    - Ventas
+    - Finanzas - Cobranzas y Tesorería
+    - Commercial Operations - Comercio Exterior, Customer Service, Licitaciones y Facturación
+    - Calidad
+    - Depósito y Logística
+    - Recepción
+  summary: |
+    Mi primera experiencia laboral. 
+    Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio „learning-by-doing“.
+     
 - name: Iquall Networks
   position: Ingeniero DevOps
   startDate: '2019-09-30'
@@ -162,31 +192,16 @@ work:
   summary:
   url: https://www.linkedin.com/company/206170
   location: Ciudad Autónoma de Buenos Aires
-- name: Sartorius
-  position: Intern
-  startDate: '2017-02-28'
-  endDate: '2018-12-31'
+
+
+- name: Telecom Argentina
+  position: DevOps Engineer
+  startDate: '2021-07-31'
+  endDate: ''
   highlights: []
-  summary: |
-    Pasantía, con rotación por diferentes sectores dentro de la empresa, a través del principio „learning-by-doing“:
-
-
-
-    - Servicio Técnico
-
-    - Ventas
-
-    - Finanzas: Cobranzas y Tesorería
-
-    - Commercial Operations: Comercio Exterior, Customer Service, Licitaciones y Facturación
-
-    - Calidad
-
-    - Depósito y Logística
-
-    - Recepción
-  url: https://www.linkedin.com/company/15749
-  location: Gran Buenos Aires, Argentina
+  summary:
+  url: https://www.linkedin.com/company/209495
+  location: Argentina
 
 certificates:
 - name: First Certificate in English (FCE)
@@ -199,7 +214,15 @@ certificates:
   issuer: EducacionIT
   startDate: '2021-06-30'
   url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
-
+- name: openshift cluster adm
+- name: openshift app development 
+- name: openshift service mesh
+- name: Security in containers
+- name: aleman comercial
+- name: Fachochschulreife
+- name: el industrie kaufmann
+- name: titulo del colegio
+- name: el de robotica del colegio?
 
 languages:
 - fluency: Native Speaker
@@ -215,6 +238,7 @@ projects:
   summary:
   url:
   endDate: '2015-02-28'
+- name: impresora 3d desde 0
 
 
 interests:

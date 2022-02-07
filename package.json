@@ -28,6 +28,7 @@
     "handlebars": "^4.7.7",
     "helper-markdown": "^1.0.0",
     "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-kendall": "^0.2.0",
     "resume-cli": "^3.0.5",
     "yamljs": "^0.3.0"
