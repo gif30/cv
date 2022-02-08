@@ -7,7 +7,7 @@
     "validate": "resume validate --resume cv.yaml",
     "export": "resume export build/index.html --resume cv.yaml --theme $JSONCV_THEME",
     "export-pdf": "resume export build/cv.pdf --resume cv.yaml --theme $JSONCV_THEME",
-    "view": "yarn run export && open build/index.html",
+    "view": "yarn run export && xdg-open build/index.html",
     "view-pdf": "yarn run export-pdf && open build/cv.pdf",
     "predeploy": "yarn run export",
     "test": "resume export build/index.html --resume cv.yaml --theme kendall && open build/index.html",

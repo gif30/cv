@@ -5,18 +5,18 @@ meta:
 basics:
   name: Germán Ignacio Fodino
   label: DevOps - GameDev - Dev
-  image: 'https://github.com/gif30/cv/raw/main/me.jpg'
+  image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
     Soy alguien al que le encanta enseñar, ayudar, aprender e innovar. Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas. Soy una persona muy curiosa y transparente con todo lo que pienso. Me gusta trabajar en equipo y suelo ser alguien muy analítico.
-    
+
     Nací en 1998 en Buenos Aires y durante mi escolaridad fui a un colegio alemán, donde aprendí sobre el idioma y la cultura.
-  
-  
+
+
     Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas. Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
     Para expandir mis áreas de conocimiento y obtener experiencia laboral a temprana edad, decidí hacer un terciario en paralelo a la universidad como junior manager en administración industrial (Industriekaufmann). Además de obtener conocimientos empresariales básicos, tuve mi primera experiencia laboral, donde fui rotando de sector en sector para tener un panorama general de todos los sectores de una empresa.
     Una vez terminado dicho terciario Comencé mi carrera en una técnica donde trabaje por poco tiempo como ingeniero de redes y luego como ingeniero DevOps (mi trabajo actual)
-    
+
     Si desea saber más sobre mí, no dude en explorar la página o consultarme. 
     Si ve algo que le gusta, o le gustaría hablar sobre lo que puedo hacer por usted, no dude en escribirme.
 
@@ -26,22 +26,20 @@ basics:
   #  Si eso no es ser pro-activo, entonces no se que lo será!
   #  Fuera de eso, se me da muy bien el compañerismo y el trabajo en equipo, manejando el respeto y la solidaridad, para poder llegar mucho más lejos entre todos.
 
-
-
   website: https://german-fodino.com
   email: german.fodino@gmail.com
 
   location:
     city: Ciudad de Buenos Aires
     countryCode: CABA
-    address: 'Av. Triunvirato 4125'
+    address: "Av. Triunvirato 4125"
     postalCode: 1431
     region: Buenos Aires
 
   profiles:
     - network: GitHub
       url: https://github.com/gif30
-      username: '@gif30'
+      username: "@gif30"
 
     - network: LinkedIn
       url: https://www.linkedin.com/in/gifodino
@@ -57,12 +55,13 @@ skills:
       - Scripting (Python, Shell)
       - Cloud & On-Prem
       - VMs, Containers & Serverless
-      - Agile (Scrum/Kanban) 
+      - Agile (Scrum/Kanban)
 
   - name: Containers
     level: Expert
     keywords:
       - Docker
+      - docker-compose
       - Kubernetes (K8s, Openshift, AWS EKS)
       - Cluster Administration
       - App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
@@ -71,18 +70,20 @@ skills:
   - name: Cloud Computing
     level: Intermediate
     keywords:
-      - AWS
-      - Infrastructure as code (IaC)
-      - Serverless
-      - VMs
-      - Containers
+      - Amazon Web Services (AWS)
+      - Infrastructure as code (IaC) CDK
+      - Serverless (Lambda)
+      - VMs (EC2)
+      - Containers (EKS)
+      - Internet of Things (IoT)
+      - Code Pipelines
 
   - name: System Administration
     level: Intermediate
     keywords:
       - Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
       - Web servers (Nginx, Envoy) & app hosting
-      - Server configuration Automation (Ansible)
+      - Config Automation (Ansible)
       - Automated systems management & monitoring
       - Kubernetes/Openshift Cluster Administrator
 
@@ -124,122 +125,148 @@ skills:
       - Autoaprendizaje
 
 education:
-- institution: "Colegio Pestalozzi / Pestalozzi Schule"
-  url: https://www.pestalozzi.edu.ar/
-  area: Educacion Primaria y Secundaria
-  studyType: Bachillerato Bilingüe en Ciencias y Letras con Idioma Aleman
-  startDate: '2011-12-31'
-  endDate: '2016-12-31'
-  score: ''
-  courses: []
-- institution: BBZ - BerufsBildungsZentrum - Centro de  Capacitación Profesional
-  url: https://bbz.iballester.edu.ar/
-  area: Empresa, gestión, marketing y disciplinas afines
-  studyType: Junior Manager en Administracion Industrial (Industriekaufmann)
-  startDate: '2017-12-31'
-  endDate: '2018-12-31'
-  score: ''
-  courses: []
-- institution: Universidad Tecnológica Nacional
-  url: https://utn.edu.ar/
-  area: Ingeniería electrónica y de comunicaciones
-  studyType: Grado en Ingeniería
-  startDate: '2017-12-31'
-  endDate: null
-  score: ''
-  courses: []
-- institution: Universidad Tecnológica Nacional
-  url: https://utn.edu.ar/
-  area: Ingeniería en Sistemas / Software
-  studyType: Grado en Ingeniería
-  startDate: '2020-12-31'
-  endDate: null
-  score: ''
-  courses: []
-- institution: DaVinci
-  url: https://davinci.edu.ar/
-  area: Arte Multimedia (Videojuegos)
-  studyType: Diseño y Programacion de Simuladores Virtuales
-  startDate: '2020-12-31'
-  endDate: null
-  score: ''
-  courses: []
+  - institution: "Colegio Pestalozzi / Pestalozzi Schule"
+    url: https://www.pestalozzi.edu.ar/
+    area: Educacion Primaria y Secundaria
+    studyType: Bachillerato Bilingüe en Ciencias y Letras con Idioma Aleman
+    startDate: "2011-12-31"
+    endDate: "2016-12-31"
+    score: ""
+    courses: []
+  - institution: BBZ - BerufsBildungsZentrum - Centro de  Capacitación Profesional
+    url: https://bbz.iballester.edu.ar/
+    area: Empresa, gestión, marketing y disciplinas afines
+    studyType: Junior Manager en Administracion Industrial (Industriekaufmann)
+    startDate: "2017-12-31"
+    endDate: "2018-12-31"
+    score: ""
+    courses: []
+  - institution: Universidad Tecnológica Nacional
+    url: https://utn.edu.ar/
+    area: Ingeniería electrónica y de comunicaciones
+    studyType: Grado en Ingeniería
+    startDate: "2017-12-31"
+    endDate: null
+    score: ""
+    courses: []
+  - institution: Universidad Tecnológica Nacional
+    url: https://utn.edu.ar/
+    area: Ingeniería en Sistemas / Software
+    studyType: Grado en Ingeniería
+    startDate: "2020-12-31"
+    endDate: null
+    score: ""
+    courses: []
+  - institution: DaVinci
+    url: https://davinci.edu.ar/
+    area: Arte Multimedia (Videojuegos)
+    studyType: Diseño y Programacion de Simuladores Virtuales
+    startDate: "2020-12-31"
+    endDate: null
+    score: ""
+    courses: []
 
 work:
-- name: Sartorius
-  position: Intern
-  startDate: '2017-02-28'
-  endDate: '2018-12-31'
-  url: https://www.linkedin.com/company/15749
-  location: Gran Buenos Aires, Argentina
-  highlights: 
-    - Servicio Técnico
-    - Ventas
-    - Finanzas - Cobranzas y Tesorería
-    - Commercial Operations - Comercio Exterior, Customer Service, Licitaciones y Facturación
-    - Calidad
-    - Depósito y Logística
-    - Recepción
-  summary: |
-    Mi primera experiencia laboral. 
-    Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio „learning-by-doing“.
-     
-- name: Iquall Networks
-  position: Ingeniero DevOps
-  startDate: '2019-09-30'
-  endDate: '2021-09-30'
-  highlights: []
-  summary:
-  url: https://www.linkedin.com/company/206170
-  location: Ciudad Autónoma de Buenos Aires
+  - name: Sartorius
+    position: Intern
+    startDate: "2017-02-28"
+    endDate: "2018-12-31"
+    url: https://www.linkedin.com/company/15749
+    location: Buenos Aires, Argentina
+    highlights:
+      - Servicio Técnico
+      - Ventas
+      - Finanzas - Cobranzas y Tesorería
+      - Commercial Operations - Comercio Exterior, Customer Service, Licitaciones y Facturación
+      - Calidad
+      - Depósito y Logística
+      - Recepción
+    summary: |
+      Mi primera experiencia laboral en el ambiente comercial.
+      Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio „learning-by-doing“.
 
+  - name: Iquall Networks
+    position: DevOps Engineer
+    startDate: "2019-09-30"
+    endDate: "2021-09-30"
+    highlights:
+      - Trabaje en un proyecto IoT para medir la calidad de experiencia de usuario en las redes del pais (Mobiprobe Sonar). Automaticé todo el procedimiento de despliegue y el actualizado de los equipos para realizarlos de manera remota.
+      - Trabaje en un proyecto muy flexible para la automatizacion de configuraciones sobre equipos de red (MAT).
+      - Trabaje en el despliegue del frontend y backend de ambos proyectos.
+      - Adquirí experiencia con herramientas como Python, shell, Jinja2 y  Ansible.
+      - Utilice tecnologias de containers como Kubernetes, Docker y docker-compose.
+      - Utilice herramientas de monitoreo e ingesta de metricas como Prometheus, Influx y Grafana.
+    summary: |
+      Fue mi primera experiencia laboral como DevOps.
+      Principalmente trabaje en el segmento de las telecomunicaciones aportando a soluciones de automatizacion y de monitoreo IoT.
 
-- name: Telecom Argentina
-  position: DevOps Engineer
-  startDate: '2021-07-31'
-  endDate: ''
-  highlights: []
-  summary:
-  url: https://www.linkedin.com/company/209495
-  location: Argentina
+    url: https://www.linkedin.com/company/206170
+    location: Ciudad Autónoma de Buenos Aires, Argentina
+
+  - name: Telecom Argentina
+    position: DevOps Engineer
+    startDate: "2021-07-31"
+    endDate: ""
+    highlights:
+      - Trabaje tanto en el frontend como en el backend de FLOW, una plataforma de streaming masiva.
+      - Uso de tecnologias de containers como EKS y Openshift tanto on prem como en la nube.
+      - Migre varios proyectos a la nube AWS con infrastructura como codigo.
+      - Utilice herramientas de CI/CD como Tekton, ArgoCD y CodePipelines.
+    summary: |
+      Telecom es un de las empresas de telecomunicaciones mas grande de Argentina. 
+      Aqui trabaje en la industria del entretenimiento digital, en la plataforma FLOW de Streaming y Television mas grande de Argentina.
+    url: https://www.linkedin.com/company/209495
+    location: Ciudad Autónoma de Buenos Aires, Argentina
 
 certificates:
-- name: First Certificate in English (FCE)
-  issuer: University of Cambridge
-  startDate: '2016-12-31'
-- name: Deutsches Sprachdiplom II (DSD II)
-  issuer:
-  startDate: '2016-11-30'
-- name: AWS Cloud Practitioner
-  issuer: EducacionIT
-  startDate: '2021-06-30'
-  url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
-- name: openshift cluster adm
-- name: openshift app development 
-- name: openshift service mesh
-- name: Security in containers
-- name: aleman comercial
-- name: Fachochschulreife
-- name: el industrie kaufmann
-- name: titulo del colegio
-- name: el de robotica del colegio?
+  - name: First Certificate in English (FCE)
+    issuer: University of Cambridge
+    startDate: "2016-12-31"
+  - name: Deutsches Sprachdiplom II (DSD II)
+    issuer:
+    startDate: "2016-11-30"
+  - name: AWS Cloud Practitioner
+    issuer: EducacionIT
+    startDate: "2021-06-30"
+    url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
+  - name: openshift cluster adm
+  - name: openshift app development
+  - name: openshift service mesh
+  - name: Security in containers
+  - name: aleman comercial
+  - name: Fachochschulreife
+  - name: el industrie kaufmann
+  - name: titulo del colegio
+  - name: el de robotica del colegio?
 
 languages:
-- fluency: Native Speaker
-  language: Español (ES)
-- fluency: Advanced (C1)
-  language: Deutsch (DE)
-- fluency: Advanced (B2)
-  language: English (EN)
+  - fluency: Native Speaker
+    language: Español (ES)
+  - fluency: Advanced (C1)
+    language: Deutsch (DE)
+  - fluency: Advanced (B2)
+    language: English (EN)
 
 projects:
-- name: Intercambio estudiantil en Alzey, Alemania
-  startDate: '2014-12-31'
-  summary:
-  url:
-  endDate: '2015-02-28'
-- name: impresora 3d desde 0
+  - name: Intercambio estudiantil en Alzey, Alemania
+    startDate: "2014-12-31"
+    summary: |
+      Tuve la suerte de poder realizar un intercambio estudiantil con una familia increible. 
+      El intercambio tuvo 2 partes: 3 meses donde estuve en Alemania y otros 3 meses donde mi compañero aleman estuvo en mi casa en Argentina.
+      Fue una experiencia fascinante que me permitio experimentar una cultura y un idioma totalmente distinto desde un punto de vista muy cercano, donde pude desenvolverme y mezclarme
+    url: null
+    endDate: "2015-02-28"
 
+  - name: Impresora 3d desde 0
+    startDate: "2016"
+    endDate: "2020"
+    summary: |
+      Si bien mucha gente se compra un kit de armado de una impresora 3d, en mi caso fue un proyecto de diseño y construccion pieza por pieza de una impresora 3d que realice con un amigo.
+      Tuvo muchas iteraciones y varias versiones hasta que finalmente logramos nuestro objetivo. Aprendi muchisimo de este proyecto ya que fue un desafio que involucro mucha investigacion y esfuerzo.
+    url: null
+
+  - name: Domotica
+  - name: TANKs
 
 interests:
   - Travel
