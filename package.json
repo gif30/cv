@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/gif30/cv#readme",
   "dependencies": {
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "handlebars": "^4.7.7",
     "helper-markdown": "^1.0.0",
     "jsonresume-theme-actual": "^0.1.6",
