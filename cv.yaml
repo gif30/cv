@@ -280,22 +280,22 @@ languages:
 
 projects:
   - name: Intercambio estudiantil en Alzey, Alemania
-    startDate: "2014-12-31"
     summary: |
       Tuve la suerte de poder realizar un intercambio estudiantil con una familia increible. 
       El intercambio tuvo 2 partes: 3 meses donde estuve en Alemania y otros 3 meses donde mi compañero aleman estuvo en mi casa en Argentina.
       Fue una experiencia fascinante que me permitio experimentar una cultura y un idioma totalmente distinto desde un punto de vista muy cercano, donde pude desenvolverme y mezclarme
-    url: null
+    startDate: "2014-12-31"
     endDate: "2015-02-28"
+    url: null
 
   - name: Impresora 3d desde 0
-    startDate: "2016"
-    endDate: "2020"
     summary: |
       Originalmente comenzo como un proyecto para fabricar una fresadora CNC y terminamos yendo por el camino de construir una impresora 3D.
       Si bien mucha gente se compra un kit de armado, en mi caso fue un proyecto de diseño y construccion pieza por pieza de una impresora 3d que realice con un amigo.
       Tuvimos muchas iteraciones y varias versiones hasta que finalmente logramos nuestro objetivo.
       Aprendi muchisimo de este proyecto ya que fue un desafio que involucro mucha investigacion, esfuerzo y trabajo en equipo.
+    startDate: "2016"
+    endDate: "2020"
     url: null
 
   - name: Scanner y lista de las compras
@@ -303,6 +303,9 @@ projects:
       Para mi uso personal y de la casa, compre un scanner de codigo de barras como los del supermercado y lo programe para que cada vez que escanee un producto, me lo agregue a una lista de supermercado.
       Entonces cada vez que voy a tirar el embase de un producto que ya use, lo escaneo y la proxima vez que vaya al super, ya se que tengo que comprar del mismo.
       Use linux, python y tuve que aprender sobre el web scraping para poder realizarlo.
+    startDate: "2021"
+    endDate: "2021"
+    url: null
 
   - name: TANKs
     summary: |
@@ -310,13 +313,17 @@ projects:
       Nuestra solucion consistio de un espacio marcado y un robot con un compartimento, control de acceso, sensores y conexion remota.
       Basicamente uno ingresa la carga dentro del robot, le indica el destino y el robot realizaba el delivery.
       Por la manera en que trabajaba el robot, se le podian agregar o quitar rutas facilmente, lo cual hacia escalable y flexible su implementacion.
+    startDate: "2019"
+    endDate: "2019"
+    url: null
 
   - name: Domotica
-    startDate: "2016"
-    endDate: "2016"
     summary: |
       Realice para una muestra escolar de robotica una maqueta interactiva, programada con varias placas Arduino y sensores. 
       Involucro demostraciones sobre iluminacion, aperturas y refrigeracion inteligente.
+    startDate: "2016"
+    endDate: "2016"
+    url: null
 
   - name: Otros
     summary: |
