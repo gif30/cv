@@ -52,9 +52,11 @@ skills:
       - Continous Integration (Tekton, Github actions, Gitlab CI )
       - Continous Delivery (ArgoCD)
       - IaC (Terraform, CDK)
-      - Scripting (Python, Shell)
+      - GitOps & GitFlow
       - Cloud & On-Prem
+      - Scripting (Python, Shell)
       - VMs, Containers & Serverless
+      - Security and QA integrations
       - Agile (Scrum/Kanban)
 
   - name: Containers
@@ -225,18 +227,47 @@ certificates:
   - name: Deutsches Sprachdiplom II (DSD II)
     issuer:
     startDate: "2016-11-30"
+
   - name: AWS Cloud Practitioner
     issuer: EducacionIT
     startDate: "2021-06-30"
     url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
-  - name: openshift cluster adm
-  - name: openshift app development
+
+  - name: "Red Hat OpenShift Development II: Containerizing Applications (DO288)"
+    issuer: RedHat
+    startDate: "2021-10-15"
+    url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568
+
+  - name: "Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)"
+    issuer: RedHat
+    startDate: "2021-09-23"
+    url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94
+
+  - name: "Secure Container Images in CI/CD (Advanced)"
+    issuer: DevSecOps Academy
+    startDate: "2022-02-12"
+    url: https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2
+
+  - name: "Building Secure Container Images in CI/CD with Clair"
+    issuer: DevSecOps Academy
+    startDate: "2022-02-12"
+    url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png
+
+  - name: "Building Secure Container Images in CI/CD with Trivy"
+    issuer: DevSecOps Academy
+    startDate: "2022-02-12"
+    url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png
+
+  - name: "Anchore for Secure Container Images"
+    issuer: DevSecOps Academy
+    startDate: "2022-02-12"
+    url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
+
   - name: openshift service mesh
-  - name: Security in containers
   - name: aleman comercial
   - name: Fachochschulreife
   - name: el industrie kaufmann
-  - name: titulo del colegio
+  - name: Titulo escolar
   - name: el de robotica del colegio?
 
 languages:
@@ -261,18 +292,44 @@ projects:
     startDate: "2016"
     endDate: "2020"
     summary: |
-      Si bien mucha gente se compra un kit de armado de una impresora 3d, en mi caso fue un proyecto de diseño y construccion pieza por pieza de una impresora 3d que realice con un amigo.
-      Tuvo muchas iteraciones y varias versiones hasta que finalmente logramos nuestro objetivo. Aprendi muchisimo de este proyecto ya que fue un desafio que involucro mucha investigacion y esfuerzo.
+      Originalmente comenzo como un proyecto para fabricar una fresadora CNC y terminamos yendo por el camino de construir una impresora 3D.
+      Si bien mucha gente se compra un kit de armado, en mi caso fue un proyecto de diseño y construccion pieza por pieza de una impresora 3d que realice con un amigo.
+      Tuvimos muchas iteraciones y varias versiones hasta que finalmente logramos nuestro objetivo.
+      Aprendi muchisimo de este proyecto ya que fue un desafio que involucro mucha investigacion, esfuerzo y trabajo en equipo.
     url: null
 
-  - name: Domotica
+  - name: Scanner y lista de las compras
+    summary: |
+      Para mi uso personal y de la casa, compre un scanner de codigo de barras como los del supermercado y lo programe para que cada vez que escanee un producto, me lo agregue a una lista de supermercado.
+      Entonces cada vez que voy a tirar el embase de un producto que ya use, lo escaneo y la proxima vez que vaya al super, ya se que tengo que comprar del mismo.
+      Use linux, python y tuve que aprender sobre el web scraping para poder realizarlo.
+
   - name: TANKs
+    summary: |
+      Este fue un proyecto universitario donde construimos una solucion para poder realizar mensajeria de objetos de manera autonoma dentro de un espacio predefinido (ya sea una oficina, un Deposito o un espacio abierto).
+      Nuestra solucion consistio de un espacio marcado y un robot con un compartimento, control de acceso, sensores y conexion remota.
+      Basicamente uno ingresa la carga dentro del robot, le indica el destino y el robot realizaba el delivery.
+      Por la manera en que trabajaba el robot, se le podian agregar o quitar rutas facilmente, lo cual hacia escalable y flexible su implementacion.
+
+  - name: Domotica
+    startDate: "2016"
+    endDate: "2016"
+    summary: |
+      Realice para una muestra escolar de robotica una maqueta interactiva, programada con varias placas Arduino y sensores. 
+      Involucro demostraciones sobre iluminacion, aperturas y refrigeracion inteligente.
+
+  - name: Otros
+    summary: |
+      Suelo realizar muchisimos proyectos sin contar los ya mencionados anteriormente. 
+      Paginas web, aplicaciones de celu, IoT, cosas de electronica y domotica. 
+      Incluso he hecho varios experimentos caseros, cosas a mano y un poco de jardineria.
+      En cuanto tengo una curiosidad o un problema suelo ser bastante inquieto y proactivo, sobre todo porque me encanta aprender de todo un poco.
 
 interests:
   - Travel
   - Deportes Nauticos
   - Navegacion a vela
-  - Naturaleza
+  - Naturaleza y animales
   - Buceo Recreativo
   - Musica
   - Tecnologia
