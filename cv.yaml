@@ -221,12 +221,26 @@ work:
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
 certificates:
-  - name: First Certificate in English (FCE)
+  - name: First Certificate in English (FCE) - ESOL International
     issuer: University of Cambridge
     startDate: "2016-12-31"
+
   - name: Deutsches Sprachdiplom II (DSD II)
     issuer:
-    startDate: "2016-11-30"
+    startDate: "2016-10-27"
+
+  - name: Wirtschaftsdeutsch International
+    issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
+    startDate: "2018-12-12"
+
+  - name: Industriekaufmann (Junior Manager en administracion industrial)
+    issuer: Deutscher Industrie- und Handelskammertag (DIHK) und de Berufsbildungszentrum (BBZ Instituto Ballerster)
+    startDate: "2018-11-27"
+
+  - name: Fachhochschulreife
+    issuer: Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
+    startDate: "2017-02-01"
+    endDate: "2018-12-31"
 
   - name: AWS Cloud Practitioner
     issuer: EducacionIT
@@ -263,11 +277,9 @@ certificates:
     startDate: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
-  - name: openshift service mesh
-  - name: aleman comercial
-  - name: Fachochschulreife
-  - name: el industrie kaufmann
   - name: Titulo escolar
+
+  - name: openshift service mesh
   - name: el de robotica del colegio?
 
 languages:
