@@ -8,12 +8,12 @@ basics:
   image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
-    Nací en 1998 en Buenos Aires y durante mi escolaridad fui a un colegio alemán, donde aprendí sobre el idioma y la cultura.
-    Soy alguien al que le encanta enseñar, ayudar, aprender e innovar. 
-    Además soy una persona muy curiosa y transparente con todo lo que pienso, me gusta trabajar en equipo y suelo ser alguien muy analítico.
-    Si desea saber más sobre mí, no dude en explorar la página o consultarme. 
-    Si ve algo que le gusta, o le gustaría hablar sobre lo que puedo hacer por usted, no dude en escribirme.
-
+    I was born in 1998 in Buenos Aires. I went to a German school, where i learnt a lot about its language and culture.
+    I'm someone that loves to learn, teach, help, innovate and usually very analitical.
+    I'm also very curious, transparent and open-minded. This helps me a lot in situations specially, when I work with other people.
+    If you wish to know more about me, don't hesitate to do it so.
+    If you find something interesting
+    If you see something you like, or would like to discuss what I can do for you, feel free to write me.
   #Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
   #Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
   #Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
@@ -31,7 +31,7 @@ basics:
   email: german.fodino@gmail.com
 
   location:
-    city: Ciudad de Buenos Aires
+    city: Buenos Aires City
     countryCode: CABA
     address: "Av. Triunvirato 4125"
     postalCode: 1431
@@ -105,6 +105,8 @@ skills:
       - Web Scraping
       - RobotFramework & Selenium (Testing)
       - SQL and NoSQL Databases (MongoDB, Postgres)
+      - Arduino and other embedded systems.
+      - Some knowledge on electronics.
 
   - name: Observability
     level: Basics/Medium
@@ -116,54 +118,56 @@ skills:
   - name: Soft Skills
     level: Personal
     keywords:
-      - Trabajo en equipo
-      - Transparencia
-      - Planificacion estrategica
+      - Teamwork
+      - Communication skills
+      - Transparecy
+      - Strategic planificacion
       - Team/Chapter Lead
       - Management
-      - Flexibilidad
+      - Flexibility
       - Growth Mindset
       - Quick Lerner
-      - Creatividad
-      - Autoaprendizaje
+      - Creaitve
+      - Self-taught
 
 education:
   - institution: "Colegio Pestalozzi / Pestalozzi Schule"
     url: https://www.pestalozzi.edu.ar/
-    area: Educacion Primaria y Secundaria
-    studyType: Bachillerato Bilingüe en Ciencias y Letras con Idioma Aleman
+    area: elementary, secondary and high school
+    studyType: Baccalaureate specialized in natural sciences, literature and languages
     startDate: "2011-12-31"
     endDate: "2016-12-31"
     score: ""
     courses: []
-  - institution: BBZ - BerufsBildungsZentrum - Centro de Capacitación Profesional (Instituto Ballester)
+  - institution: BBZ - BerufsBildungsZentrum - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
-    area: Empresa, gestión, marketing y disciplinas afines
-    studyType: Junior Manager en Administración Industrial (Industriekaufmann)
+    area: Business, management, marketing and related disciplines
+    studyType: Junior Manager in industrial administration (Industriekaufmann)
     startDate: "2017-12-31"
     endDate: "2018-12-31"
     score: ""
     courses: []
-  - institution: Universidad Tecnológica Nacional
+  - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
-    area: Ingeniería electrónica y de comunicaciones
-    studyType: Grado en Ingeniería
+    area: Electronic engineering
+    studyType: Engineering degree
     startDate: "2017-12-31"
     endDate: null
     score: ""
     courses: []
+
   - institution: Universidad Tecnológica Nacional
     url: https://utn.edu.ar/
-    area: Ingeniería en Sistemas / Software
-    studyType: Grado en Ingeniería
+    area: Sistemas / Software engineering
+    studyType: Engineering degree
     startDate: "2020-12-31"
     endDate: null
     score: ""
     courses: []
   - institution: DaVinci
     url: https://davinci.edu.ar/
-    area: Arte Multimedia (Videojuegos)
-    studyType: Diseño y Programacion de Simuladores Virtuales
+    area: Design and Programming of Virtual Simulators
+    studyType: Multimedia design (Videogames)
     startDate: "2020-12-31"
     endDate: null
     score: ""
@@ -177,32 +181,30 @@ work:
     url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
     highlights:
-      - Servicio Técnico
-      - Ventas
-      - Finanzas - Cobranzas y Tesorería
-      - Commercial Operations - Comercio Exterior, Customer Service, Licitaciones y Facturación
-      - Calidad
-      - Depósito y Logística
-      - Recepción
+       - Technical service
+       - Sales
+       - Finance - Collections and Treasury
+       - Commercial Operations - Foreign Trade, Customer Service, Bidding and Billing
+       - Quality Assurance and Quality Control
+       - Warehouse and Logistics
+       - Reception
     summary: |
-      Mi primera experiencia laboral en el ambiente comercial.
-      Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio „learning-by-doing“ para obtener un panorama general de todos los sectores de una empresa.
-
+      My first working experience in the sales business.
+      Internship with rotation through different sectors within the company, through the "learning-by-doing" principle to obtain an overview of all sectors of a company.
   - name: Iquall Networks
     position: DevOps Engineer
     startDate: "2019-09-30"
     endDate: "2021-09-30"
     highlights:
-      - Trabaje en un proyecto IoT para medir la calidad de experiencia de usuario en las redes del pais (Mobiprobe Sonar). Automaticé todo el procedimiento de despliegue y el actualizado de los equipos para realizarlos de manera remota.
-      - Trabaje en un proyecto muy flexible para la automatizacion de configuraciones sobre equipos de red (MAT).
-      - Trabaje en el despliegue del frontend y backend de ambos proyectos.
-      - Adquirí experiencia con herramientas como Python, shell, Jinja2 y  Ansible.
-      - Utilice tecnologias de containers como Kubernetes, Docker y docker-compose.
-      - Utilice herramientas de monitoreo e ingesta de metricas como Prometheus, Influx y Grafana.
+      - Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.
+      - Worked on a very flexible platfor to automate networking equipment configuration (MAT).
+      - Worked on the server side deployment deployment on both proyects (frontend and backend).
+      - Adquire some experience with scripting and templating tooling like Python, shell, Jinja2 y  Ansible.
+      - Use of containers tecnologies such as Kubernetes, Docker and docker-compose.
+      - Use of monitoring tooling such as Prometheus, Influx y Grafana and alerting systems.
     summary: |
-      Fue mi primera experiencia laboral como DevOps.
-      Principalmente trabaje en el segmento de las telecomunicaciones aportando a soluciones de automatizacion y de monitoreo IoT.
-
+      My first working experience as DevOps.
+      Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
     url: https://www.linkedin.com/company/206170
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
@@ -211,13 +213,14 @@ work:
     startDate: "2021-07-31"
     endDate: ""
     highlights:
-      - Trabaje tanto en el frontend como en el backend de FLOW, una plataforma de streaming masiva.
-      - Uso de tecnologias de containers como EKS y Openshift tanto on prem como en la nube.
-      - Migre varios proyectos a la nube AWS con infrastructura como codigo.
-      - Utilice herramientas de CI/CD como Tekton, ArgoCD y CodePipelines.
+      - Worked on a massive streaming service on the frontend and backend.
+      - Usage of technologies such as container orquestration (EKS y Openshift).
+      - Cloud and on premise.
+      - Migration of multiple applications to the cloud (AWS) with infrastructure as code (IaC)
+      - Usage of CI/CD tooling such as Tekton, ArgoCD, CodePipelines and Gitlab CI.
     summary: |
-      Telecom es un de las empresas de telecomunicaciones mas grande de Argentina. 
-      Aqui trabaje en la industria del entretenimiento digital, en la plataforma FLOW de Streaming y Television mas grande de Argentina.
+      Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.
+      I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)
     url: https://www.linkedin.com/company/209495
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
@@ -234,7 +237,7 @@ certificates:
     issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
     startDate: "2018-12-12"
 
-  - name: Industriekaufmann (Junior Manager en administracion industrial)
+  - name: Industriekaufmann (Junior Manager in industrial administration)
     issuer: Deutscher Industrie- und Handelskammertag (DIHK) und de Berufsbildungszentrum (BBZ Instituto Ballerster)
     startDate: "2018-11-27"
 
@@ -297,66 +300,66 @@ languages:
     language: English (EN)
 
 projects:
-  - name: Intercambio estudiantil en Alzey, Alemania
+  - name: Student exchange in Alzey, Germany
     summary: |
-      Tuve la suerte de poder realizar un intercambio estudiantil con una familia increible. 
-      El intercambio tuvo 2 partes: 3 meses donde estuve en Alemania y otros 3 meses donde mi compañero aleman estuvo en mi casa en Argentina.
-      Fue una experiencia fascinante que me permitio experimentar una cultura y un idioma totalmente distinto desde un punto de vista muy cercano, donde pude desenvolverme y mezclarme
+      I had the oportunity and luck to realize an student exchange with an amazing family.
+      This experience had 2 parts: 3 months in Germany and 3 mounths where my german partner came to my home in Argentina.
+      It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.
     startDate: "2014-12-31"
     endDate: "2015-02-28"
     url: null
 
-  - name: Impresora 3d desde 0
+  - name: 3D Printer from scratch
     summary: |
-      Originalmente comenzo como un proyecto para fabricar una fresadora CNC y terminamos yendo por el camino de construir una impresora 3D.
-      Si bien mucha gente se compra un kit de armado, en mi caso fue un proyecto de diseño y construccion pieza por pieza de una impresora 3d que realice con un amigo.
-      Tuvimos muchas iteraciones y varias versiones hasta que finalmente logramos nuestro objetivo.
-      Aprendi muchisimo de este proyecto ya que fue un desafio que involucro mucha investigacion, esfuerzo y trabajo en equipo.
+      It all started with 2 friends with desire and curiosity to build a CNC router. Being the boom of 3D printing it ending beeing a proyect to build a printer.
+      Most people buys a preasembled kit but in this case it took hours to design, forge and build piece by piece.
+      It had many iterations and versions, until we finaly achieved our goal.
+      We learnt a lot with this proyect which took a lot of work of investigation, efford, countless hours and teamwork.
     startDate: "2016"
     endDate: "2020"
     url: null
 
-  - name: Scanner y lista de las compras
+  - name: Barcode scanner and shoplist
     summary: |
-      Para mi uso personal y de la casa, compre un scanner de codigo de barras como los del supermercado y lo programe para que cada vez que escanee un producto, me lo agregue a una lista de supermercado.
-      Entonces cada vez que voy a tirar el embase de un producto que ya use, lo escaneo y la proxima vez que vaya al super, ya se que tengo que comprar del mismo.
-      Use linux, python y tuve que aprender sobre el web scraping para poder realizarlo.
+      For my personal use y bought a barcode scanner (like the ones on the supermarket) and programmed it so that every time a product gets scanned, it gets added to my shoplist.
+      This way, every time I went to the supermarket, I had my shopping list effortless.
+      I used linux, python and learnt web scraping. for this proyect.
     startDate: "2021"
     endDate: "2021"
     url: null
 
   - name: TANKs
     summary: |
-      Este fue un proyecto universitario donde construimos una solucion para poder realizar mensajeria de objetos de manera autonoma dentro de un espacio predefinido (ya sea una oficina, un Deposito o un espacio abierto).
-      Nuestra solucion consistio de un espacio marcado y un robot con un compartimento, control de acceso, sensores y conexion remota.
-      Basicamente uno ingresa la carga dentro del robot, le indica el destino y el robot realizaba el delivery.
-      Por la manera en que trabajaba el robot, se le podian agregar o quitar rutas facilmente, lo cual hacia escalable y flexible su implementacion.
+      This was a proyect I've built at the University with some partners.
+      The idea was to build a robot to deliver goods autonomously in a predefined area (an office, a Warehouse or an open space).
+      It consisted on a landmarked area and a robot with a compartment, some access control, proximity and light sensors and a remote connection
+      Basically after loading the payload, you indicated the waypoint, and the robot realizes the delivery.
+      By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.
     startDate: "2019"
     endDate: "2019"
     url: null
 
-  - name: Domotica
+  - name: Domotics
     summary: |
-      Realice para una muestra escolar de robotica una maqueta interactiva, programada con varias placas Arduino y sensores. 
-      Involucro demostraciones sobre iluminacion, aperturas y refrigeracion inteligente.
+      I worked on an interactive model of a home, programmed with multiple sensors and Arduino boards.
+      It involved demonstration of automated lighting, openings and smart refrigeration.
     startDate: "2016"
     endDate: "2016"
     url: null
 
-  - name: Otros
+  - name: Other Projects
     summary: |
-      Suelo realizar muchisimos proyectos sin contar los ya mencionados anteriormente. 
-      Paginas web, aplicaciones de celu, IoT, cosas de electronica y domotica. 
-      Incluso he hecho varios experimentos caseros, cosas a mano y un poco de jardineria.
-      En cuanto tengo una curiosidad o un problema suelo ser bastante inquieto y proactivo, sobre todo porque me encanta aprender de todo un poco.
+      I'm used to work in countless projects without counting on the previous mentioned projects.
+      Web Pages, Phone Apps, IoT, electronics and domotics. 
+      Also homemade expriments, handmade stuff y aand a little gardening.
+      I'm restless and every time I see an issue a problem or just something to learn about I want to get involved and kill that curiosity.
 
 interests:
   - Travel
-  - Deportes Nauticos
-  - Navegacion a vela
-  - Naturaleza y animales
-  - Buceo Recreativo
-  - Musica
-  - Tecnologia
-  - Impresoras 3D
+  - Sailing
+  - Animals and Nature
+  - Diving
+  - Music
+  - Technology
+  - 3D Printing
   - Open Source
