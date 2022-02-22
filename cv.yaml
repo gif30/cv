@@ -341,7 +341,7 @@ projects:
 
   - name: Domotics
     summary: |
-      I worked on an interactive model of a home, programmed with multiple sensors and Arduino boards.
+      I worked on an interactive model of a home,and programmed it with multiple sensors and Arduino boards.
       It involved demonstration of automated lighting, openings and smart refrigeration.
     startDate: "2016"
     endDate: "2016"
