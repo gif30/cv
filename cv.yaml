@@ -61,7 +61,7 @@ skills:
       - Agile (Scrum/Kanban)
 
   - name: Containers
-    level: Expert
+    level: Master
     keywords:
       - Docker
       - docker-compose
@@ -90,8 +90,8 @@ skills:
       - Automated systems management & monitoring
       - Kubernetes/Openshift Cluster Administrator
 
-  - name: Programming/Development
-    level: Medium
+  - name: Programming
+    level: Intermediate
     keywords:
       - Python
       - TypeScript
@@ -109,7 +109,7 @@ skills:
       - Some knowledge on electronics.
 
   - name: Observability
-    level: Basics/Medium
+    level: Intermediate
     keywords:
       - Monitoring (Grafana, Prometheus, InfluxDB)
       - Logging (Loki, ElasticSearch (ELK), Fluentd)
@@ -137,41 +137,41 @@ education:
     studyType: Baccalaureate specialized in natural sciences, literature and languages
     startDate: "2011-12-31"
     endDate: "2016-12-31"
-    score: ""
-    courses: []
-  - institution: BBZ - BerufsBildungsZentrum - Professional Training Center (Ballester Institute)
+    #score: ""
+    #courses: []
+  - institution: BBZ - BerufsBildungsZentrum #- Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Business, management, marketing and related disciplines
     studyType: Junior Manager in industrial administration (Industriekaufmann)
     startDate: "2017-12-31"
     endDate: "2018-12-31"
-    score: ""
-    courses: []
+    #score: ""
+    #courses: []
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
     area: Electronic engineering
     studyType: Engineering degree
     startDate: "2017-12-31"
-    endDate: null
-    score: ""
-    courses: []
+    #endDate: null
+    #score: ""
+    #courses: []
 
   - institution: Universidad Tecnológica Nacional
     url: https://utn.edu.ar/
     area: Sistemas / Software engineering
     studyType: Engineering degree
     startDate: "2020-12-31"
-    endDate: null
-    score: ""
-    courses: []
+    #endDate: null
+    #score: ""
+    #courses: []
   - institution: DaVinci
     url: https://davinci.edu.ar/
     area: Design and Programming of Virtual Simulators
     studyType: Multimedia design (Videogames)
     startDate: "2020-12-31"
-    endDate: null
-    score: ""
-    courses: []
+    #endDate: null
+    #score: ""
+    #courses: []
 
 work:
   - name: Sartorius
@@ -211,7 +211,7 @@ work:
   - name: Telecom Argentina
     position: DevOps Engineer
     startDate: "2021-07-31"
-    endDate: ""
+    #endDate: ""
     highlights:
       - Worked on a massive streaming service on the frontend and backend.
       - Usage of technologies such as container orquestration (EKS y Openshift).
@@ -227,63 +227,62 @@ work:
 certificates:
   - name: First Certificate in English (FCE) - ESOL International
     issuer: University of Cambridge
-    startDate: "2016-12-31"
+    date: "2016-12-31"
 
   - name: Deutsches Sprachdiplom II (DSD II)
     issuer:
-    startDate: "2016-10-27"
+    date: "2016-10-27"
 
   - name: Wirtschaftsdeutsch International
     issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
-    startDate: "2018-12-12"
+    date: "2018-12-12"
 
   - name: Industriekaufmann (Junior Manager in industrial administration)
     issuer: Deutscher Industrie- und Handelskammertag (DIHK) und de Berufsbildungszentrum (BBZ Instituto Ballerster)
-    startDate: "2018-11-27"
+    date: "2018-11-27"
 
   - name: Fachhochschulreife
     issuer: Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
-    startDate: "2017-02-01"
-    endDate: "2018-12-31"
+    date: "2018-12-31"
 
   - name: AWS Cloud Practitioner
     issuer: EducacionIT
-    startDate: "2021-06-30"
+    date: "2021-06-30"
     url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
 
   - name: "Red Hat OpenShift Development II: Containerizing Applications (DO288)"
     issuer: RedHat
-    startDate: "2021-10-15"
+    date: "2021-10-15"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568
 
   - name: "Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)"
     issuer: RedHat
-    startDate: "2021-09-23"
+    date: "2021-09-23"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94
 
   - name: "Building Resilient Microservices with Istio and Red Hat OpenShift Service Mesh (DO328)"
     issuer: RedHat
-    startDate: "2021-12-02"
+    date: "2021-12-02"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92
 
   - name: "Secure Container Images in CI/CD (Advanced)"
     issuer: DevSecOps Academy
-    startDate: "2022-02-12"
+    date: "2022-02-12"
     url: https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2
 
   - name: "Building Secure Container Images in CI/CD with Clair"
     issuer: DevSecOps Academy
-    startDate: "2022-02-12"
+    date: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png
 
   - name: "Building Secure Container Images in CI/CD with Trivy"
     issuer: DevSecOps Academy
-    startDate: "2022-02-12"
+    date: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png
 
   - name: "Anchore for Secure Container Images"
     issuer: DevSecOps Academy
-    startDate: "2022-02-12"
+    date: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
   # TODO agregar titulo del colegio
@@ -307,7 +306,7 @@ projects:
       It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.
     startDate: "2014-12-31"
     endDate: "2015-02-28"
-    url: null
+    #url: null
 
   - name: 3D Printer from scratch
     summary: |
@@ -317,16 +316,16 @@ projects:
       We learnt a lot with this proyect which took a lot of work of investigation, efford, countless hours and teamwork.
     startDate: "2016"
     endDate: "2020"
-    url: null
+    #url: null
 
   - name: Barcode scanner and shoplist
     summary: |
       For my personal use y bought a barcode scanner (like the ones on the supermarket) and programmed it so that every time a product gets scanned, it gets added to my shoplist.
       This way, every time I went to the supermarket, I had my shopping list effortless.
       I used linux, python and learnt web scraping. for this proyect.
-    startDate: "2021"
-    endDate: "2021"
-    url: null
+    startDate: "2021-01-01"
+    endDate: "2021-12-31"
+    #url: null
 
   - name: TANKs
     summary: |
@@ -335,17 +334,17 @@ projects:
       It consisted on a landmarked area and a robot with a compartment, some access control, proximity and light sensors and a remote connection
       Basically after loading the payload, you indicated the waypoint, and the robot realizes the delivery.
       By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.
-    startDate: "2019"
-    endDate: "2019"
-    url: null
+    startDate: "2019-01-01"
+    endDate: "2019-12-31"
+    #url: null
 
   - name: Domotics
     summary: |
       I worked on an interactive model of a home,and programmed it with multiple sensors and Arduino boards.
       It involved demonstration of automated lighting, openings and smart refrigeration.
-    startDate: "2016"
-    endDate: "2016"
-    url: null
+    startDate: "2016-01-01"
+    endDate: "2016-12-31"
+    #url: null
 
   - name: Other Projects
     summary: |
@@ -355,11 +354,31 @@ projects:
       I'm restless and every time I see an issue a problem or just something to learn about I want to get involved and kill that curiosity.
 
 interests:
-  - Travel
-  - Sailing
-  - Animals and Nature
-  - Diving
-  - Music
-  - Technology
-  - 3D Printing
-  - Open Source
+  - name: Wildlife
+    keywords:
+      - Animals
+      - Landscapes
+      - Nature
+      - sea life
+  - name: Nautic sports
+    keywords:
+      - Sailing
+      - Diving
+      - Swimming
+  - name: Music
+    keywords:
+     - Rock'n Roll
+     - Electro dance music
+     - 80's music
+
+  - name: Technology
+    keywords:
+    - 3D printing
+    - open source
+    - robotics
+
+  - name: Gaming
+    keywords:
+     - shooters
+     - survivals
+     - Open world
