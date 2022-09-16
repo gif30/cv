@@ -9,11 +9,10 @@ basics:
 
   summary: |
     I was born in 1998 in Buenos Aires. I went to a German school, where i learnt a lot about its language and culture.
-    I'm someone that loves to learn, teach, help, innovate and usually very analitical.
-    I'm also very curious, transparent and open-minded. This helps me a lot in situations specially, when I work with other people.
-    If you wish to know more about me, don't hesitate to do it so.
-    If you find something interesting
-    If you see something you like, or would like to discuss what I can do for you, feel free to write me.
+    I love learning new things, teaching and helping to innovate.
+    I'm also someone very analitical, curious, transparent and open-minded. This last things help me a lot, when I work with other people.
+    If you wish to know more about me and you liked my profile don't hesitate to reach me!
+
   #Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
   #Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
   #Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
@@ -27,7 +26,7 @@ basics:
   #  Si eso no es ser pro-activo, entonces no se que lo será!
   #  Fuera de eso, se me da muy bien el compañerismo y el trabajo en equipo, manejando el respeto y la solidaridad, para poder llegar mucho más lejos entre todos.
 
-  website: https://german-fodino.com
+  website: https://german.fodino.net/
   email: german.fodino@gmail.com
 
   location:
@@ -50,7 +49,8 @@ skills:
   - name: DevOps
     level: Very Advanced
     keywords:
-      - Continous Integration (Tekton, Github actions, Gitlab CI )
+      - Continous Integration (Tekton, Github, Gitlab CI )
+      #- Continous Integration (Tekton, Github actions, Gitlab CI )
       - Continous Delivery (ArgoCD)
       - IaC (Terraform, CDK)
       - GitOps & GitFlow
@@ -84,7 +84,8 @@ skills:
   - name: System Administration
     level: Intermediate
     keywords:
-      - Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
+      - Linux/UNIX (Debian, Ubuntu, Arch, etc.)
+      #- Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
       - Web servers (Nginx, Envoy) & app hosting
       - Config Automation (Ansible)
       - Automated systems management & monitoring

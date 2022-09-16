@@ -29,6 +29,6 @@ To build locally, however, run the following:
     yarn install
     yarn
     export JSONCV_THEME=kendall
-    yarn view
+    yarn export
 
-This will automatically build and display the resulting `cv.html` in your browser.
+This will automatically build your cv as html and pdf.
