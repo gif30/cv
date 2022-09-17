@@ -4,7 +4,8 @@ on:
     branches:
       - main
 env:
-  JSONCV_THEME: kendall
+  #JSONCV_THEME: kendall
+  JSONCV_THEME: stackoverflow
 jobs:
   build:
     runs-on: ubuntu-latest
