@@ -71,7 +71,7 @@ skills:
       - Networking - Service Mesh - API Gateway
 
   - name: Cloud Computing
-    level: Intermediate
+    level: Very Advanced
     keywords:
       - Amazon Web Services (AWS)
       - Infrastructure as code (IaC) CDK
@@ -215,7 +215,8 @@ work:
     #endDate: ""
     highlights:
       - Worked on a massive streaming service on the frontend and backend.
-      - Usage of technologies such as container orquestration (EKS y Openshift).
+      - Usage of technologies such as container orquestration (EKS y Openshift, ECS).
+      - Usage of serverless technologies (Lambda, S3, ApiGW, Amplify)
       - Cloud and on premise.
       - Migration of multiple applications to the cloud (AWS) with infrastructure as code (IaC)
       - Usage of CI/CD tooling such as Tekton, ArgoCD, CodePipelines and Gitlab CI.
