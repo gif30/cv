@@ -287,6 +287,16 @@ certificates:
     date: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
+  # TODO: subir archivos a un s3 o drive y agregarlos 
+  - name: "AWS Technical Essentials"
+    issuer: Amazon Web Services - AWS Training & Certification
+    date: "2022-03-07"
+    #url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
+  - name: "Architecting on AWS"
+    issuer: Amazon Web Services - AWS Training & Certification
+    date: "2022-03-17"
+    #url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
+
   # TODO agregar titulo del colegio
   #- name: Titulo escolar
   #TODO: add titulo de robotica (UTN)
