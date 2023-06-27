@@ -11,10 +11,11 @@ basics:
   image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
-    I was born in 1998 in Buenos Aires, Argentina. I attended a German school where I learned a lot about the language and culture.
-    I love learning new things, teaching, and contributing to innovation. That's why technology is my passion.
-    I am also analytical, curious, transparent, and open-minded, which greatly benefits my collaboration with others.
-    If you would like to know more about me and found my profile interesting, please don't hesitate to reach out!
+    Nací en 1998 en Buenos Aires, Argentina. Asistí a una escuela alemana donde aprendí mucho sobre su idioma y cultura.
+    Me encanta aprender cosas nuevas, enseñar y contribuir a la innovación. Por eso, la tecnología es mi pasión.
+    También soy alguien muy analítico, curioso, transparente y de mente abierta, lo cual me ayuda mucho cuando trabajo con otras personas.
+    Si deseas saber más sobre mí y te ha gustado mi perfil, ¡no dudes en contactarme!
+
   # Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
   # Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
   # Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
@@ -59,7 +60,7 @@ skills:
       - Cloud & On-Prem
       - Scripting (Python, Shell)
       - VMs, Containers & Serverless
-      - Security and QA integrations
+      - Integraciones de QA y seguridad
       - Agile (Scrum/Kanban)
 
   - name: Containers
@@ -68,20 +69,20 @@ skills:
       - Docker
       - docker-compose
       - Kubernetes (K8s, Openshift, AWS EKS)
-      - Cluster Administration
-      - App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
-      - Networking - Service Mesh - API Gateway
+      - Administración de Clusters
+      - Despliegue de aplicaciones (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
+      - Redes - Service Mesh - API Gateway
 
   - name: Cloud Computing
     level: Very Advanced
     keywords:
       - Amazon Web Services (AWS)
-      - Infrastructure as code (IaC) CDK
+      - Infrastructura como código (IaC) CDK
       - Serverless (Lambda)
       - VMs (EC2)
       - Containers (EKS, ECS)
-      - Internet of Things (IoT)
-      - Databases (OpenSearch/ElasticSearch, RDS, Aurora, SQL/NoSQL)
+      - Internet de las cosas (IoT)
+      - Bases de Datos (OpenSearch/ElasticSearch, RDS, Aurora, SQL/NoSQL)
       - Code Pipelines
 
   - name: System Administration (SRE)
@@ -91,10 +92,10 @@ skills:
       # - Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
       - Web servers (Nginx, Envoy) & app hosting
       - Config Automation (Ansible)
-      - Automated systems management & monitoring
-      - Kubernetes/Openshift Cluster Administrator
+      - Gestión y supervisión de sistemas automatizados
+      - Administrador de clusters de Kubernetes/Openshift
 
-  - name: Programming
+  - name: Programación
     level: Intermediate
     keywords:
       - Python
@@ -109,10 +110,10 @@ skills:
       - Web Scraping
       - RobotFramework & Selenium (Testing)
       - SQL and NoSQL Databases (MongoDB, Postgres)
-      - Arduino and other embedded systems.
-      - Some knowledge on electronics.
+      - Arduino y otros sistemas embebidos.
+      - Conocimientos basicos de electrónica.
 
-  - name: Observability
+  - name: Observabilidad
     level: Intermediate
     keywords:
       - Monitoring (Grafana, Prometheus, InfluxDB)
@@ -122,39 +123,39 @@ skills:
   - name: Soft Skills
     level: Personal
     keywords:
-      - Teamwork
-      - Communication skills
-      - Transparecy
-      - Strategic planificacion
-      - Team/Chapter Lead
-      - Management
-      - Flexibility
-      - Growth Mindset
-      - Quick Lerner
-      - Creaitve
-      - Self-taught
+      - Trabajo en equipo
+      - Habilidades de comunicación
+      - Transparencia
+      - Planificación estratégica
+      - Líder de equipo
+      - Gestión
+      - Flexibilidad
+      - Mentalidad de crecimiento
+      - Aprendizaje rápido
+      - Creatividad
+      - Autodidacta
 
 education:
   - institution: "Colegio Pestalozzi / Pestalozzi Schule"
     url: https://www.pestalozzi.edu.ar/
-    area: elementary, secondary and high school
-    studyType: Baccalaureate specialized in natural sciences, literature and languages
+    area: primaria, secundaria y bachillerato
+    studyType: Bachillerato especializado en ciencias naturales, literatura y lenguas
     startDate: "2011-12-31"
     endDate: "2016-12-31"
     # score: ""
     # courses: []
   - institution: BBZ - BerufsBildungsZentrum  # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
-    area: Business, management, marketing and related disciplines
-    studyType: Junior Manager in industrial administration (Industriekaufmann)
+    area: Negocios, administración, marketing y disciplinas afines
+    studyType: Junior Manager en administración industrial (Industriekaufmann)
     startDate: "2017-12-31"
     endDate: "2018-12-31"
     # score: ""
     # courses: []
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
-    area: Electronic engineering (not finished)
-    studyType: Engineering degree
+    area: Ingeniería Electrónica (not finished)
+    studyType: Ingeniería
     startDate: "2017-12-31"
     endDate: "2020-12-31"
     # endDate: null
@@ -170,8 +171,8 @@ education:
   #   # courses: []
   - institution: DaVinci
     url: https://davinci.edu.ar/
-    area: Design and Programming of Virtual Simulators
-    studyType: Multimedia design (Videogames)
+    area: Diseño y Programación de Simuladores Virtuales
+    studyType: Diseño multimedia (Videojuegos)
     startDate: "2020-12-31"
     # endDate: null
     # score: ""
@@ -179,56 +180,55 @@ education:
 
 work:
   - name: Sartorius
-    position: Intern
+    position: Pasante
     startDate: "2017-02-28"
     endDate: "2018-12-31"
     url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
     highlights:
-      - Technical service
-      - Sales
-      - Finance - Collections and Treasury
-      - Commercial Operations - Foreign Trade, Customer Service, Bidding and Billing
-      - Quality Assurance and Quality Control
-      - Warehouse and Logistics
-      - Reception
+      - Servicio técnico
+      - Ventas
+      - Finanzas - Cobranzas y Tesorería
+      - Operaciones comerciales - Comercio exterior, Servicio al cliente, Licitaciones y Facturación
+      - Aseguramiento de calidad y Control de calidad
+      - Almacén y Logística
+      - Recepción
     summary: |
-      My first working experience in the sales business.
-      Internship with rotation through different sectors within the company, through the "learning-by-doing" principle to obtain an overview of all sectors of a company.
+      Mi primera experiencia laboral en el área de ventas.
+      Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio de "aprender haciendo" para obtener una visión general de todos los sectores de una empresa.
 
   - name: Iquall Networks
-    position: DevOps Engineer
+    position: Ingeniero DevOps
     startDate: "2019-09-01"
     endDate: "2021-07-30"
     highlights:
-      - Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.
-      - Worked on a very flexible platfor to automate networking equipment configuration (MAT).
-      - Worked on the server side deployment deployment on both proyects (frontend and backend).
-      - Adquire some experience with scripting and templating tooling like Python, shell, Jinja2 y  Ansible.
-      - Use of containers tecnologies such as Kubernetes, Docker and docker-compose.
-      - Use of monitoring tooling such as Prometheus, Influx y Grafana and alerting systems.
+      - Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.
+      - Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).
+      - Trabajé en la implementación del lado del servidor en ambos proyectos (frontend y backend).
+      - Adquirí experiencia con herramientas de scripting y plantillas como Python, shell, Jinja2 y Ansible.
+      - Uso de tecnologías de contenedores como Kubernetes, Docker y docker-compose.
+      - Uso de herramientas de monitoreo como Prometheus, Influx y Grafana y sistemas de alerta.
     summary: |
-      My first working experience as DevOps.
-      Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
+      Mi primera experiencia laboral como Ingeniero DevOps.
+      Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
     url: https://www.linkedin.com/company/206170
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Telecom Argentina
-    position: DevOps Engineer
+    position: Ingeniero DevOps
     startDate: "2021-07-01"
     endDate: "2023-06-09"
     highlights:
-      - Worked on a massive streaming service on the frontend and backend.
-      - Usage of technologies such as container orquestration (EKS y Openshift, ECS).
-      - Usage of serverless technologies (Lambda, S3, ApiGW, Amplify)
-      - Cloud and on premise.
-      - Migration of multiple applications to the cloud (AWS) with infrastructure as code (IaC)
-      - Usage of CI/CD tooling such as Tekton, ArgoCD, CodePipelines and Gitlab CI.
+      - Trabajé en un servicio de streaming masivo tanto en el frontend como en el backend.
+      - Uso de tecnologías como orquestación de contenedores (EKS y Openshift, ECS).
+      - Uso de tecnologías sin servidor (Lambda, S3, ApiGW, Amplify).
+      - Cloud y on-premise.
+      - Migración de múltiples aplicaciones a la nube (AWS) con infraestructura como código (IaC).
+      - Uso de herramientas de CI/CD como Tekton, ArgoCD, CodePipelines y Gitlab CI.
     summary: |
-      Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.
-      I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)
+      Telecom es una de las empresas de telecomunicaciones más grandes (si no la más grande) en Argentina.
+      Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
     url: https://www.linkedin.com/company/209495
-    location: Ciudad Autónoma de Buenos Aires, Argentina
 
 certificates:
 
@@ -329,86 +329,82 @@ languages:
     language: English (EN)
 
 projects:
-  - name: Student exchange in Alzey, Germany
+  - name: Intercambio estudiantil en Alzey, Alemania
     summary: |
-      I had the oportunity and luck to realize an student exchange with an amazing family.
-      This experience had 2 parts: 3 months in Germany and 3 mounths where my german partner came to my home in Argentina.
-      It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.
+      Tuve la oportunidad y la suerte de realizar un intercambio estudiantil con una familia increíble.
+      Esta experiencia tuvo 2 partes: 3 meses en Alemania y 3 meses en los que mi compañero alemán vino a mi casa en Argentina.
+      Fue una experiencia increíble que me permitió experimentar una nueva cultura y un nuevo idioma desde una perspectiva interna.
     startDate: "2014-12-31"
     endDate: "2015-02-28"
-    # url: null
 
-  - name: 3D Printer from scratch
+  - name: Impresora 3D desde cero
     summary: |
-      It all started with 2 friends with desire and curiosity to build a CNC router. Being the boom of 3D printing it ending beeing a proyect to build a printer.
-      Most people buys a preasembled kit but in this case it took hours to design, forge and build piece by piece.
-      It had many iterations and versions, until we finaly achieved our goal.
-      We learnt a lot with this proyect which took a lot of work of investigation, efford, countless hours and teamwork.
+      Todo comenzó con 2 amigos con ganas y curiosidad de construir una fresadora CNC. Dado el auge de la impresión 3D, terminamos construyendo una impresora.
+      La mayoría de las personas compran un kit preensamblado, pero en este caso tomó horas diseñar, forjar y construir pieza por pieza.
+      Hubo muchas iteraciones y versiones, hasta que finalmente logramos nuestro objetivo.
+      Aprendimos mucho con este proyecto, que requirió mucho trabajo de investigación, esfuerzo, incontables horas y trabajo en equipo.
     startDate: "2016"
     endDate: "2020"
-    # url: null
 
-  - name: Barcode scanner and shoplist
+  - name: Escáner de códigos de barras y lista de compras
     summary: |
-      For my personal use y bought a barcode scanner (like the ones on the supermarket) and programmed it so that every time a product gets scanned, it gets added to my shoplist.
-      This way, every time I went to the supermarket, I had my shopping list effortless.
-      I used linux, python and learnt web scraping. for this proyect.
+      Para uso personal, compré un escáner de códigos de barras (como los del supermercado) y lo programé para que cada vez que se escanea un producto, se agregue a mi lista de compras.
+      De esta manera, cada vez que iba al supermercado, tenía mi lista de compras sin esfuerzo.
+      Utilicé Linux, Python y aprendí sobre web scraping para este proyecto.
     startDate: "2021-01-01"
     endDate: "2021-12-31"
-    # url: null
 
   - name: TANKs
     summary: |
-      This was a proyect I've built at the University with some partners.
-      The idea was to build a robot to deliver goods autonomously in a predefined area (an office, a Warehouse or an open space).
-      It consisted on a landmarked area and a robot with a compartment, some access control, proximity and light sensors and a remote connection
-      Basically after loading the payload, you indicated the waypoint, and the robot realizes the delivery.
-      By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.
+      Este fue un proyecto que construí en la universidad con algunos compañeros.
+      La idea era construir un robot para entregar mercancías de forma autónoma en un área predefinida (una oficina, un almacén o un espacio abierto).
+      Consistía en un área marcada y un robot con un compartimento, algunos sensores de control de acceso, proximidad y luz, y una conexión remota.
+      Básicamente, después de cargar la carga, indicabas el punto de referencia y el robot realizaba la entrega.
+      La forma en que funcionaba permitía agregar o quitar las rutas fácilmente, lo que lo hacía escalable y flexible de implementar.
     startDate: "2019-01-01"
     endDate: "2019-12-31"
-    # url: null
 
-  - name: Domotics
+  - name: Domótica
     summary: |
-      I worked on an interactive model of a home,and programmed it with multiple sensors and Arduino boards.
-      It involved demonstration of automated lighting, openings and smart refrigeration.
+      Trabajé en un modelo interactivo de una casa y lo programé con múltiples sensores y placas Arduino.
+      Incluyó demostraciones de iluminación automatizada, aperturas y refrigeración inteligente.
     startDate: "2016-01-01"
     endDate: "2016-12-31"
-    # url: null
 
-  - name: Other Projects
+  - name: Otros Proyectos
     summary: |
-      I'm used to work in countless projects without counting on the previous mentioned projects.
-      Web Pages, Phone Apps, IoT, electronics and domotics.
-      Also homemade expriments, handmade stuff y aand a little gardening.
-      I'm restless and every time I see an issue a problem or just something to learn about I want to get involved and kill that curiosity.
+      Estoy acostumbrado a trabajar en innumerables proyectos sin contar los mencionados anteriormente.
+      Páginas web, aplicaciones para teléfonos, IoT, electrónica y domótica.
+      También experimentos caseros, manualidades y un poco de jardinería.
+      Soy inquieto y cada vez que veo un problema, un desafío o simplemente algo para aprender, quiero involucrarme y satisfacer esa curiosidad.
 
 interests:
-  - name: Wildlife
+  - name: Vida Salvaje
     keywords:
-      - Animals
-      - Landscapes
-      - Nature
-      - sea life
-  - name: Nautic sports
+      - Animales
+      - Paisajes
+      - Naturaleza
+      - Vida marina
+  - name: Deportes Náuticos
     keywords:
-      - Sailing
-      - Diving
-      - Swimming
-  - name: Music
+      - Vela
+      - Buceo
+      - Natación
+  - name: Música
     keywords:
       - Rock'n Roll
-      - Electro dance music
-      - 80's music
+      - Música de baile electrónica (EDM)
+      - Música de los 80s
 
-  - name: Technology
+  - name: Tecnología
     keywords:
-      - 3D printing
-      - open source
-      - robotics
+      - Impresión 3D
+      - Código abierto
+      - Robótica
 
-  - name: Gaming
+  - name: Videojuegos
     keywords:
-      - shooters
-      - survivals
-      - Open world
+      - Shooters
+      - Supervivencia
+      - Mundo abierto
+
