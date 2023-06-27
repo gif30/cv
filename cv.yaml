@@ -1,3 +1,6 @@
+---
+# yamllint disable rule:line-length
+
 meta:
   theme: actual
   version: v1.0.0
@@ -13,18 +16,18 @@ basics:
     I'm also someone very analitical, curious, transparent and open-minded. This last things help me a lot, when I work with other people.
     If you wish to know more about me and you liked my profile don't hesitate to reach me!
 
-  #Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
-  #Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
-  #Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
-  #Para expandir mis áreas de conocimiento y obtener experiencia laboral a temprana edad, decidí hacer un terciario en paralelo a la universidad como junior manager en administración industrial (Industriekaufmann).
-  #Además de obtener conocimientos empresariales básicos, tuve mi primera experiencia laboral, donde fui rotando de sector en sector para tener un panorama general de todos los sectores de una empresa.
-  #Una vez terminado dicho terciario Comencé mi carrera en una técnica donde trabaje por poco tiempo como ingeniero de redes y luego como ingeniero DevOps (mi trabajo actual)
+  # Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
+  # Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
+  # Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
+  # Para expandir mis áreas de conocimiento y obtener experiencia laboral a temprana edad, decidí hacer un terciario en paralelo a la universidad como junior manager en administración industrial (Industriekaufmann).
+  # Además de obtener conocimientos empresariales básicos, tuve mi primera experiencia laboral, donde fui rotando de sector en sector para tener un panorama general de todos los sectores de una empresa.
+  # Una vez terminado dicho terciario Comencé mi carrera en una técnica donde trabaje por poco tiempo como ingeniero de redes y luego como ingeniero DevOps (mi trabajo actual)
 
-  #summary: |
-  #  Mi pro-actividad y mi interés por el aprendizaje son dos de mis cualidades mas altas.
-  #  Esto no solo lo digo yo: se puede ver reflejado en mi actividad en el ultimo tiempo. Al apenas haber terminado el colegio, comencé a estudiar Ingeniería Electrónica, un terciario en administración industrial y complementando el terciario con mi primera experiencia laboral. Sumado a esto, en mi tiempo libre suelo trabajar en proyectos personales.
-  #  Si eso no es ser pro-activo, entonces no se que lo será!
-  #  Fuera de eso, se me da muy bien el compañerismo y el trabajo en equipo, manejando el respeto y la solidaridad, para poder llegar mucho más lejos entre todos.
+  # summary: |
+  #   Mi pro-actividad y mi interés por el aprendizaje son dos de mis cualidades mas altas.
+  #   Esto no solo lo digo yo: se puede ver reflejado en mi actividad en el ultimo tiempo. Al apenas haber terminado el colegio, comencé a estudiar Ingeniería Electrónica, un terciario en administración industrial y complementando el terciario con mi primera experiencia laboral. Sumado a esto, en mi tiempo libre suelo trabajar en proyectos personales.
+  #   Si eso no es ser pro-activo, entonces no se que lo será!
+  #   Fuera de eso, se me da muy bien el compañerismo y el trabajo en equipo, manejando el respeto y la solidaridad, para poder llegar mucho más lejos entre todos.
 
   website: https://german.fodino.net/
   email: german.fodino@gmail.com
@@ -50,7 +53,7 @@ skills:
     level: Very Advanced
     keywords:
       - Continous Integration (Tekton, Github, Gitlab CI )
-      #- Continous Integration (Tekton, Github actions, Gitlab CI )
+      # - Continous Integration (Tekton, Github actions, Gitlab CI )
       - Continous Delivery (ArgoCD)
       - IaC (Terraform, CDK)
       - GitOps & GitFlow
@@ -85,7 +88,7 @@ skills:
     level: Intermediate
     keywords:
       - Linux/UNIX (Debian, Ubuntu, Arch, etc.)
-      #- Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
+      # - Linux/UNIX (RedHat, Debian, Ubuntu, Arch, Fedora)
       - Web servers (Nginx, Envoy) & app hosting
       - Config Automation (Ansible)
       - Automated systems management & monitoring
@@ -138,41 +141,41 @@ education:
     studyType: Baccalaureate specialized in natural sciences, literature and languages
     startDate: "2011-12-31"
     endDate: "2016-12-31"
-    #score: ""
-    #courses: []
-  - institution: BBZ - BerufsBildungsZentrum #- Professional Training Center (Ballester Institute)
+    # score: ""
+    # courses: []
+  - institution: BBZ - BerufsBildungsZentrum  # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Business, management, marketing and related disciplines
     studyType: Junior Manager in industrial administration (Industriekaufmann)
     startDate: "2017-12-31"
     endDate: "2018-12-31"
-    #score: ""
-    #courses: []
+    # score: ""
+    # courses: []
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
     area: Electronic engineering (not finished)
     studyType: Engineering degree
     startDate: "2017-12-31"
     endDate: "2020-12-31"
-    #endDate: null
-    #score: ""
-    #courses: []
-  #- institution: Universidad Tecnológica Nacional
-  #  url: https://utn.edu.ar/
-  #  area: Sistemas / Software engineering
-  #  studyType: Engineering degree
-  #  startDate: "2020-12-31"
-  #  #endDate: null
-  #  #score: ""
-  #  #courses: []
+    # endDate: null
+    # score: ""
+    # courses: []
+  # - institution: Universidad Tecnológica Nacional
+  #   url: https://utn.edu.ar/
+  #   area: Sistemas / Software engineering
+  #   studyType: Engineering degree
+  #   startDate: "2020-12-31"
+  #   # endDate: null
+  #   # score: ""
+  #   # courses: []
   - institution: DaVinci
     url: https://davinci.edu.ar/
     area: Design and Programming of Virtual Simulators
     studyType: Multimedia design (Videogames)
     startDate: "2020-12-31"
-    #endDate: null
-    #score: ""
-    #courses: []
+    # endDate: null
+    # score: ""
+    # courses: []
 
 work:
   - name: Sartorius
@@ -194,8 +197,8 @@ work:
       Internship with rotation through different sectors within the company, through the "learning-by-doing" principle to obtain an overview of all sectors of a company.
   - name: Iquall Networks
     position: DevOps Engineer
-    startDate: "2019-09-30"
-    endDate: "2021-09-30"
+    startDate: "2019-09-01"
+    endDate: "2021-07-30"
     highlights:
       - Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.
       - Worked on a very flexible platfor to automate networking equipment configuration (MAT).
@@ -211,8 +214,8 @@ work:
 
   - name: Telecom Argentina
     position: DevOps Engineer
-    startDate: "2021-07-31"
-    #endDate: ""
+    startDate: "2021-07-01"
+    endDate: "2023-06-09"
     highlights:
       - Worked on a massive streaming service on the frontend and backend.
       - Usage of technologies such as container orquestration (EKS y Openshift, ECS).
@@ -227,6 +230,16 @@ work:
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
 certificates:
+
+  # Colegio
+
+  # TODO agregar titulo del colegio
+  # - name: Titulo escolar
+  # TODO: add titulo de robotica (UTN)
+  # - name: el de robotica del colegio?
+
+  # Languages
+
   - name: First Certificate in English (FCE) - ESOL International
     issuer: University of Cambridge
     date: "2016-12-31"
@@ -239,18 +252,17 @@ certificates:
     issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
     date: "2018-12-12"
 
+  # BBZ
+
   - name: Industriekaufmann (Junior Manager in industrial administration)
-    issuer: Deutscher Industrie- und Handelskammertag (DIHK) und de Berufsbildungszentrum (BBZ Instituto Ballerster)
+    issuer: Deutscher Industrie- und Handelskammertag (DIHK) und DE Berufsbildungszentrum (BBZ Instituto Ballerster)
     date: "2018-11-27"
 
   - name: Fachhochschulreife
     issuer: Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
     date: "2018-12-31"
 
-  - name: AWS Cloud Practitioner
-    issuer: EducacionIT
-    date: "2021-06-30"
-    url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
+  # Red Hat
 
   - name: "Red Hat OpenShift Development II: Containerizing Applications (DO288)"
     issuer: RedHat
@@ -266,6 +278,8 @@ certificates:
     issuer: RedHat
     date: "2021-12-02"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92
+
+  # DevSecOps Academy
 
   - name: "Secure Container Images in CI/CD (Advanced)"
     issuer: DevSecOps Academy
@@ -287,20 +301,23 @@ certificates:
     date: "2022-02-12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
-  # TODO: subir archivos a un s3 o drive y agregarlos 
+  # AWS
+
+  - name: AWS Cloud Practitioner
+    issuer: EducacionIT
+    date: "2021-06-30"
+    url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
+
+  # TODO: subir archivos a un s3 o drive y agregarlos
   - name: "AWS Technical Essentials"
     issuer: Amazon Web Services - AWS Training & Certification
     date: "2022-03-07"
-    #url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
+    # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
+
   - name: "Architecting on AWS"
     issuer: Amazon Web Services - AWS Training & Certification
     date: "2022-03-17"
-    #url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
-
-  # TODO agregar titulo del colegio
-  #- name: Titulo escolar
-  #TODO: add titulo de robotica (UTN)
-  #- name: el de robotica del colegio?
+    # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
 languages:
   - fluency: Native Speaker
@@ -318,7 +335,7 @@ projects:
       It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.
     startDate: "2014-12-31"
     endDate: "2015-02-28"
-    #url: null
+    # url: null
 
   - name: 3D Printer from scratch
     summary: |
@@ -328,7 +345,7 @@ projects:
       We learnt a lot with this proyect which took a lot of work of investigation, efford, countless hours and teamwork.
     startDate: "2016"
     endDate: "2020"
-    #url: null
+    # url: null
 
   - name: Barcode scanner and shoplist
     summary: |
@@ -337,7 +354,7 @@ projects:
       I used linux, python and learnt web scraping. for this proyect.
     startDate: "2021-01-01"
     endDate: "2021-12-31"
-    #url: null
+    # url: null
 
   - name: TANKs
     summary: |
@@ -348,7 +365,7 @@ projects:
       By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.
     startDate: "2019-01-01"
     endDate: "2019-12-31"
-    #url: null
+    # url: null
 
   - name: Domotics
     summary: |
@@ -356,12 +373,12 @@ projects:
       It involved demonstration of automated lighting, openings and smart refrigeration.
     startDate: "2016-01-01"
     endDate: "2016-12-31"
-    #url: null
+    # url: null
 
   - name: Other Projects
     summary: |
       I'm used to work in countless projects without counting on the previous mentioned projects.
-      Web Pages, Phone Apps, IoT, electronics and domotics. 
+      Web Pages, Phone Apps, IoT, electronics and domotics.
       Also homemade expriments, handmade stuff y aand a little gardening.
       I'm restless and every time I see an issue a problem or just something to learn about I want to get involved and kill that curiosity.
 
