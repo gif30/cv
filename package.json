@@ -6,13 +6,14 @@
   "scripts": {
     "validate": "resume validate --resume cv.yaml",
     "export-html": "resume export build/index.html --resume cv.yaml --theme $JSONCV_THEME",
+    "export-spanish": "resume export build/index.html --resume cv-spanish.yaml --theme $JSONCV_THEME",
     "export-pdf": "resume export build/cv.pdf --resume cv.yaml --theme $JSONCV_THEME",
     "export": "yarn run export-html && yarn run export-pdf",
     "view": "yarn run export && xdg-open build/index.html",
     "view-pdf": "yarn run export-pdf && open build/cv.pdf",
     "predeploy": "yarn run export",
     "test": "resume export build/index.html --resume cv.yaml --theme kendall && open build/index.html",
-    "deploy": "gh-pages -d build/"
+    "deploy": "echo 'german.fodino.net' > ./build/CNAME && gh-pages -d build/"
   },
   "repository": {
     "type": "git",
