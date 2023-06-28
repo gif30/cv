@@ -6,6 +6,8 @@
   "scripts": {
     "validate": "resume validate --resume cv.yaml",
     "export-html": "resume export build/index.html --resume cv.yaml --theme $JSONCV_THEME",
+    "export-notheme": "resume export build/index.html --resume cv.yaml --theme ",
+    "export-localtheme": "resume export build/index.html --resume cv.yaml --theme ./jsonresume-theme-flat/",
     "export-spanish": "resume export build/index.html --resume cv-spanish.yaml --theme $JSONCV_THEME",
     "export-pdf": "resume export build/cv.pdf --resume cv.yaml --theme $JSONCV_THEME",
     "export": "yarn run export-html && yarn run export-pdf",

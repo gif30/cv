@@ -89,8 +89,11 @@ skills:
       - VMs (EC2)
       - Containers (EKS, ECS)
       - Internet de las cosas (IoT)
-      - Bases de Datos (OpenSearch/ElasticSearch, RDS, Aurora, SQL/NoSQL)
-      - Code Pipelines
+      - Bases de Datos (RDS, Aurora, SQL/NoSQL)
+      - Motores de Busqueda (OpenSearch/ElasticSearch)
+      - AWS Amplify
+      - AWS Api-Gateway
+      - AWS CloudFront
 
   - name: System Administration (SRE)
     level: Intermediate
@@ -101,6 +104,12 @@ skills:
       - Config Automation (Ansible)
       - Gestión y supervisión de sistemas automatizados
       - Administrador de clusters de Kubernetes/Openshift
+      # - name: Observabilidad
+      #   level: Intermediate
+      #   keywords:
+      - Monitoring (Grafana, Prometheus, InfluxDB)
+      - Logging (Loki, ElasticSearch (ELK), Fluentd)
+      - Alerting (AlertManager, Alerta.io, Slack)
 
   - name: Programación
     level: Intermediate
@@ -119,13 +128,6 @@ skills:
       - SQL and NoSQL Databases (MongoDB, Postgres)
       - Arduino y otros sistemas embebidos.
       - Conocimientos basicos de electrónica.
-
-  - name: Observabilidad
-    level: Intermediate
-    keywords:
-      - Monitoring (Grafana, Prometheus, InfluxDB)
-      - Logging (Loki, ElasticSearch (ELK), Fluentd)
-      - Alerting (AlertManager, Alerta.io, Slack)
 
   - name: Soft Skills
     level: Personal
@@ -412,5 +414,6 @@ interests:
   - name: Videojuegos
     keywords:
       - Shooters
-      - Supervivencia
       - Mundo abierto
+      - Party
+      - Juegos de Mesa

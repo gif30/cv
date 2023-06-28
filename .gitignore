@@ -1,6 +1,7 @@
 resume.json
-*.pdf
-*.html
+build/*.pdf
+build/*.html
+#*.html
 *.swp
 
 # https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
