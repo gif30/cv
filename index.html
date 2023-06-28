@@ -1,1681 +1,889 @@
 <!doctype html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Germán Ignacio Fodino</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-  <style>
-  /********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Germán Ignacio Fodino</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+h4 {
+	margin-top: 0
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
 section {
-  display: block;
+	margin-top: 30px;
 }
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/****************
-*	COMMONS
-****************/
-
-body,
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 13px;
-  color: #40484f;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 1.46153846;
-  text-align: left;
-}
-
-p {
-  display: block;
-}
-
-a {
-  color: #0095ff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0c65a5;
-  text-decoration: underline;
-}
-
 li {
-  list-style-type: square;
-  list-style-position: outside;
-  margin-left: 1.3em;
+	line-height: 1.8;
+	list-style: none;
 }
-
-h1 {
-  font-size: 2rem;
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
 }
-
-h2 {
-  font-size: 1.67rem;
-}
-
-h3 {
-  font-size: 1.27rem;
-}
-
-em {
-  color: #757575;
-}
-
 blockquote {
-  margin-bottom: 1em;
-}
-
-strong {
-  font-weight: 700;
-}
-
-/* main container */
-
-#resume {
-  padding: 1.5rem;
-}
-
-/* every section wrapper */
-
-.section {
-  margin-bottom: 1rem;
-}
-
-section .location {
-  margin-right: 0.5em;
-  color: #606d76;
-  font-weight: 700;
-}
-
-#contact {
-  margin-top: 0.5rem;
-}
-
-#profiles .item {
-  padding: 0;
-}
-
-#header > #profiles,
-#header > #contact,
-#skills,
-#languages,
-#interests {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-
-#header > div {
-  line-height: 1.5;
-}
-
-#header > div > div {
-  margin-right: 1.2em;
-}
-
-#header h1.name {
-  font-size: 2.8rem;
-  font-weight: 100;
-  line-height: 100%;
-}
-
-#header h2.label {
-  color: #202931;
-  font-size: 1.47rem;
-  font-weight: 300;
-}
-
-#header .image {
-  width: 11em;
-  float: right;
-  border-radius: 4px;
-}
-
-.main-summary {
-  background: #f1f8ff;
-  padding: 1.2em 1em;
-  margin-top: 1rem;
-}
-
-.main-summary p {
-  margin: 0;
-}
-
-.section-title {
-  display: inline-block;
-  background: #fff;
-  padding: 0 1em 0.3em 0;
-  color: #ff6d1f;
-  text-transform: uppercase;
-  font-weight: 600;
-  border: none;
-  font-size: 0.9rem;
-}
-
-.section > header {
-  position: relative;
-}
-
-.fa {
-  margin-right: 0.25em;
-}
-
-.section > header::after {
-  position: absolute;
-  left: 0;
-  top: 0.7em;
-  height: 1px;
-  background: #ccc;
-  content: "";
-  width: 100%;
-  z-index: -100;
-  display: block;
-}
-
-.section.main-summary > section {
-  margin: 0;
-}
-
-.section > section > header {
-  font-size: 1.38rem;
-  position: relative;
-  margin-top: 0.7em;
-}
-
-.section > section > header:first-of-type {
-  margin: 0;
-}
-
-.section > section > header .space-left {
-  position: absolute;
-  left: -1.56rem;
-  top: 5px;
-  color: #aaa;
-  line-height: 1;
-  opacity: 0;
-}
-
-.position,
-.company,
-.organization,
-.institution,
-.date,
-.area,
-.studyType,
-.title,
-.awarder {
-  display: inline;
-}
-
-.position,
-.studyType,
-.area,
-.title,
-.language,
-.name {
-  font-weight: 600;
-}
-
-.company::before,
-.institution::before,
-.organization::before,
-.awarder::before {
-  content: "at ";
-}
-
-.company,
-.institution,
-.organization,
-.awarder {
-  color: #606d76;
-  font-weight: 400;
-}
-
-.section header .date {
-  display: block;
-  font-size: 1rem;
-  padding: 0.1em 0;
-  color: #606d76;
-  font-weight: 400;
-}
-
-.keywords,
-.courses {
-  margin: 0.5em 0;
-}
-
-.keywords li,
-.courses li {
-  display: inline-block;
-  margin: 2px 2px 2px 0;
-  padding: 4px 5px 5px;
-  font-size: 0.9rem;
-  line-height: 1;
-  color: #3e6d8e;
-  background-color: #dfeaf1;
-  border: 0 solid #dfeaf1;
-  white-space: nowrap;
-}
-
-.keywords li:hover,
-.courses li:hover {
-  background: #dfeaf0;
-}
-
-.highlights {
-  margin: 1em 0 0 0;
-}
-
-.highlights > li > p {
-  margin-bottom: 0.5em;
-}
-
-.item {
-  overflow: hidden;
-}
-
-.gpa {
-  clear: both;
-  padding-bottom: 0.5em;
-}
-
-.fa.social {
-  font-size: 1.1em;
-}
-
-/* Social Media Brand Colors */
-
-.google-plus {
-  color: #dd4b39;
-}
-
-.tumblr {
-  color: #32506d;
-}
-
-.foursquare {
-  color: #0072b1;
-}
-
-.facebook {
-  color: #3b5998;
-}
-
-.linkedin {
-  color: #007bb6;
-}
-
-.pinterest {
-  color: #cb2027;
-}
-
-.dribbble {
-  color: #ea4c89;
-}
-
-.instagram {
-  color: #517fa4;
-}
-
-.twitter {
-  color: #00aced;
-}
-
-.soundcloud {
-  color: #ff3a00;
-}
-
-.wordpress {
-  color: #21759b;
-}
-
-.youtube {
-  color: #bb0000;
-}
-
-.github {
-  color: #171515;
-}
-
-.stack-overflow {
-  color: #828386;
-  position: relative;
-}
-
-.flickr {
-  color: #ff0084;
-}
-
-.reddit {
-  color: #ff4500;
-}
-
-.hacker-news {
-  color: #ff6600;
-}
-
-.stack-overflow::after {
-  position: absolute;
-  left: 0;
-  content: "\f16c";
-  color: #f68a1f;
-  overflow: hidden;
-  height: 100%;
-}
-
-.telegram {
-  color: #2291c3;
-}
-
-#languages .item,
-#skills .item,
-#interests .item {
-  width: 15em;
-  padding: 0 0.5em 0.5em 0;
-  border-bottom: none;
-}
-
-#skills .item {
-  width: 16em;
-}
-
-#skills .item .keywords {
-  width: 15em;
-}
-
-/* Skill chart */
-
-.level {
-  margin-bottom: 0.5em;
-}
-
-.level em {
-  padding-left: 0.2em;
-}
-
-.level .bar {
-  border: 1px solid #ddd;
-  display: block;
-  width: 10em;
-  height: 5px;
-  position: relative;
-}
-
-.level .bar::after {
-  position: absolute;
-  content: " ";
-  top: 0;
-  left: 0;
-  background: black;
-  height: 5px;
-}
-
-.level.beginner .bar::after {
-  background: #eb5f51;
-  width: 2.5em;
-}
-
-.level.intermediate .bar::after {
-  background: #ffdf1f;
-  width: 5em;
-}
-
-.level.advanced .bar::after,
-.level.fluent .bar::after {
-  background: #5cb85c;
-  width: 7.5em;
-}
-
-.level.master .bar::after,
-.level.native.speaker .bar::after {
-  background: #59c596;
-  width: 10em;
-}
-
-#references .item {
-  padding-left: 0.5em;
-  border-left: 5px solid #ff6d1f;
-}
-
-.section > section > section {
-  margin-bottom: 1rem;
-}
-
-/******************
-*	HELPER CLASSES
-******************/
-
-.clear::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.display {
-  display: block;
-  opacity: 1 !important;
-}
-
-/****************
-*		TABLET
-****************/
-
-@media screen and (min-width: 602px) {
-  #resume {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .section header .date {
-    float: right;
-    font-weight: 600;
-    color: #000;
-  }
-}
-
-/****************
-*		LAPTOP
-****************/
-
-@media screen and (min-width: 1025px) {
-  li {
-    margin-left: 1.5em;
-  }
-  #resume {
-    width: 820px;
-    margin: 2rem auto;
-  }
-  .section > section > header .space-left {
-    opacity: 1;
-    cursor: pointer;
-  }
-  .section > section:not(.main-summary) {
-    margin-left: 1.67rem;
-  }
-  .company::before,
-  .institution::before,
-  .organization::before,
-  .awarder::before {
-    content: "| ";
-  }
-  .header-left {
-    float: left;
-    width: 70%;
-    word-break: normal;
-  }
-  .section header .date {
-    padding: 0.2em;
-  }
-  .display {
-    display: none;
-  }
-  .display:not(.none) {
-    display: block;
-  }
-}
-
-@media print {
-  #profiles a:not(.hide-href-print)::after{
-    content: " (" attr(href) ") ";
-  }
-  #resume {
-    margin: 0.1em;
-    padding: 0.1em;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
-    line-height: 1.25;
-  }
-  @page {
-    margin: 1cm 1.4cm;
-  }
-  .item-count {
-    display: none;
-  }
-  .company::before,
-  .institution::before,
-  .organization::before,
-  .awarder::before {
-    content: "at ";
-  }
-  .main-summary {
-    padding: 0;
-    background: transparent;
-  }
-  .section {
-    margin: 0.8rem 0;
-    padding: 0;
-  }
-  .section header {
-    padding-bottom: 0.15rem;
-  }
-  .section .location {
-    padding-bottom: 0.15rem;
-  }
-  .section > section > section {
-    margin: 0 0 1em 0;
-  }
-  .section > section > section:last-of-type {
-    margin: 0;
-  }
-  .stack-overflow::after {
-    content: "";
-  }
-  .fa.social {
-    color: #828386;
-  }
-  ul {
-    margin-top: 0.4em;
-  }
-  ul,
-  li {
-    padding: 0;
-  }
-  ul.keywords li,
-  ul.courses li {
-    margin: 0;
-    padding: 0;
-    font-size: 0.8rem;
-    background: transparent;
-  }
-  ul.keywords li::after,
-  ul.courses li::after {
-    padding: 0 0 0 0.1rem;
-    content: " |";
-  }
-  ul.keywords::before,
-  ul.courses::before {
-    font-size: 0.8rem;
-    font-weight: 600;
-  }
-  #skills .item {
-    width: calc(100% / 3);
-    padding: 0;
-  }
-  .highlights {
-    margin: 0.5em 0 0 0;
-  }
-  ul.keywords::before {
-    content: "Skills acquired: ";
-  }
-  #skills .keywords::before {
-    content: none;
-  }
-  .section p {
-    margin: 0;
-    padding: 0;
-  }
-  ul.courses::before {
-    content: "Major courses: ";
-  }
-  ul.keywords li:last-of-type::after,
-  ul.courses li:last-of-type::after {
-    content: "";
-  }
-  .level em {
-    font-style: normal;
-    padding: 0.1em 0;
-  }
-  .level .bar {
-    display: none;
-  }
-  #profiles .item {
-    padding: 0;
-  }
-  .item.display {
-    display: block;
-    opacity: 1 !important;
-  }
-  .fa-map-marker-alt:before {
-    padding-left: 0.1em;
-  }
-}
-
-  </style>
-  
-  </head>
-  <body>
-  
-  <div id="resume">
-    	<header id="header" class="clear">
-    		<img class="image" src="https://github.com/gif30/cv/raw/main/me.jpg" alt="Germán Ignacio Fodino" />
-    		<div class="middle">
-    			<h1 class="name">Germán Ignacio Fodino</h1>
-    			<h2 class="label">DevOps - GameDev - Dev</h2>
-    		</div>
-    
-    		<span class="location">
-    			<span class="address">Av. Triunvirato 4125,</span>
-    			<span class="postalCode">1431,</span>
-    			<span class="city">Buenos Aires City,</span>
-    			<span class="region">Buenos Aires</span>
-    			<span class="countryCode">CABA</span>
-    		</span>
-    
-    
-    		<div id="contact">
-    			<div class="website">
-    				<span class="fas fa-external-link-alt"></span>
-    				<a class="hide-href-print" target="_blank" target="_blank" href="https://german.fodino.net/">https://german.fodino.net/</a>
-    			</div>
-    			<div class="email">
-    				<span class="far fa-envelope"></span>
-    				<a class="hide-href-print" href="mailto:german.fodino@gmail.com">german.fodino@gmail.com</a>
-    			</div>
-    		</div>
-    
-    		<div id="profiles">
-    			<div class="item">
-    				<div class="username">
-    					<span class="fab fa-github github social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://github.com/gif30">@gif30</a>
-    					</span>
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fab fa-linkedin linkedin social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/gifodino">@gifodino</a>
-    					</span>
-    				</div>
-    			</div>
-    		</div>
-    	</header>
-    
-    	<section class="section">
-    		<section class="main-summary">
-    			<div><p><p>I've been working as a DevOps engineer for years now, honing my skills and knowledge along the way.</p><p>I'm mostly self-taught, but I've also earned certifications because I genuinely enjoy learning and staying updated with the latest tech.</p><p>Teaching, contributing, and helping others innovate? It's my thing. Technology is my passion, and I dive into it with excitement.</p><p>I bring an analytical, curious, transparent, and open-minded approach to the table, which makes collaborating with others a breeze.</p><p>If you'd like to know more about me and find my profile interesting, feel free to reach out! I'm eager to connect and explore opportunities.</p></p></div>
-    		</section>
-    	</section>
-    
-    <section class="section">
-    	<header>
-    		<h2 class='section-title'>Skills</h2>
-    	</header>
-    	<section id="skills">
-    		<div class="item">
-    			<h3 class="name">
-    				DevOps
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Continous Integration (Tekton, Github, Gitlab CI )</li>
-    				<li>Continous Delivery (ArgoCD)</li>
-    				<li>IaC (Terraform, CDK)</li>
-    				<li>GitOps &amp; GitFlow</li>
-    				<li>Cloud &amp; On-Prem</li>
-    				<li>Scripting (Python, Shell)</li>
-    				<li>VMs, Containers &amp; Serverless</li>
-    				<li>Security and QA integrations</li>
-    				<li>Agile (Scrum/Kanban)</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Containers
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Docker</li>
-    				<li>docker-compose</li>
-    				<li>Kubernetes (K8s, Openshift, AWS EKS)</li>
-    				<li>Elastic Container Service (ECS)</li>
-    				<li>Cluster Administration</li>
-    				<li>App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)</li>
-    				<li>Networking - Service Mesh - API Gateway</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Cloud Computing
-    			</h3>
-    			 
-    			<div class="level very advanced">
-    				<em>Very Advanced</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Amazon Web Services (AWS)</li>
-    				<li>Infrastructure as code (IaC) CDK</li>
-    				<li>Serverless (Lambda)</li>
-    				<li>VMs (EC2)</li>
-    				<li>Containers (EKS, ECS)</li>
-    				<li>Internet of Things (IoT)</li>
-    				<li>Databases (RDS, Aurora, SQL/NoSQL)</li>
-    				<li>Search Engines (OpenSearch/ElasticSearch)</li>
-    				<li>AWS Amplify</li>
-    				<li>AWS Api-Gateway</li>
-    				<li>AWS CloudFront</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				System Administration (SRE)
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Linux/UNIX (Debian, Ubuntu, Arch, etc.)</li>
-    				<li>Web servers (Nginx, Envoy) &amp; app hosting</li>
-    				<li>Config Automation (Ansible)</li>
-    				<li>Automation System Management</li>
-    				<li>Kubernetes/Openshift Cluster Administrator</li>
-    				<li>Monitoring (Grafana, Prometheus, InfluxDB)</li>
-    				<li>Logging (Loki, ElasticSearch (ELK), Fluentd)</li>
-    				<li>Alerting (AlertManager, Alerta.io, Slack)</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Programming
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>Intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Python</li>
-    				<li>TypeScript</li>
-    				<li>Node.js (JavaScript)</li>
-    				<li>Mobile - Flutter (Dart)</li>
-    				<li>Golang (Go)</li>
-    				<li>C | C++ | C#</li>
-    				<li>Open source</li>
-    				<li>Version control &amp; management (git)</li>
-    				<li>Game Development</li>
-    				<li>Web Scraping</li>
-    				<li>RobotFramework &amp; Selenium (Testing)</li>
-    				<li>SQL and NoSQL Databases (MongoDB, Postgres)</li>
-    				<li>Arduino and other embedded systems.</li>
-    				<li>Some knowledge on electronics.</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Soft Skills
-    			</h3>
-    			 
-    			<div class="level personal">
-    				<em>Personal</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Teamwork</li>
-    				<li>Communication skills</li>
-    				<li>Transparecy</li>
-    				<li>Strategic planificacion</li>
-    				<li>Team/Chapter Lead</li>
-    				<li>Management</li>
-    				<li>Flexibility</li>
-    				<li>Growth Mindset</li>
-    				<li>Quick Lerner</li>
-    				<li>Creaitve</li>
-    				<li>Self-taught</li>
-    			</ul>
-    		</div>
-    	</section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(3)</span></h2>
-      </header>
-    
-      <section id="work">
-        <section class="work-item">
-    
-          <label for="work-item-0"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Feb 2017</span>
-              <span class="endDate">- Dec 2018</span>
-            </div>
-            <div class="position">Intern</div>
-            <div class="company">Sartorius</div>
-          </header>
-    
-          <span class="fas fa-map-marker-alt"></span>
-          <span class="location">Buenos Aires, Argentina</span>
-          <span class="url">
-            <span class="fas fa-external-link-alt"></span>
-            <a target="_blank" href="https://www.linkedin.com/company/15749">https://www.linkedin.com/company/15749</a>
-          </span>        <div class="item" id="work-item">
-            <div class="summary"><p><p>My first working experience in the sales business.</p><p>Internship with rotation through different sectors within the company, through the &quot;learning-by-doing&quot; principle to obtain an overview of all sectors of a company.</p></p></div>
-            <ul class="highlights">
-              <li><p><p>Technical service</p></p></li>
-              <li><p><p>Sales</p></p></li>
-              <li><p><p>Finance - Collections and Treasury</p></p></li>
-              <li><p><p>Commercial Operations - Foreign Trade, Customer Service, Bidding and Billing</p></p></li>
-              <li><p><p>Quality Assurance and Quality Control</p></p></li>
-              <li><p><p>Warehouse and Logistics</p></p></li>
-              <li><p><p>Reception</p></p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="work-item">
-    
-          <label for="work-item-1"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Sep 2019</span>
-              <span class="endDate">- Jul 2021</span>
-            </div>
-            <div class="position">DevOps Engineer</div>
-            <div class="company">Iquall Networks</div>
-          </header>
-    
-          <span class="fas fa-map-marker-alt"></span>
-          <span class="location">Ciudad Autónoma de Buenos Aires, Argentina</span>
-          <span class="url">
-            <span class="fas fa-external-link-alt"></span>
-            <a target="_blank" href="https://www.linkedin.com/company/206170">https://www.linkedin.com/company/206170</a>
-          </span>        <div class="item" id="work-item">
-            <div class="summary"><p><p>My first working experience as DevOps.</p><p>Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.</p></p></div>
-            <ul class="highlights">
-              <li><p><p>Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.</p></p></li>
-              <li><p><p>Worked on a very flexible platfor to automate networking equipment configuration (MAT).</p></p></li>
-              <li><p><p>Worked on the server side deployment deployment on both proyects (frontend and backend).</p></p></li>
-              <li><p><p>Adquire some experience with scripting and templating tooling like Python, shell, Jinja2 y  Ansible.</p></p></li>
-              <li><p><p>Use of containers tecnologies such as Kubernetes, Docker and docker-compose.</p></p></li>
-              <li><p><p>Use of monitoring tooling such as Prometheus, Influx y Grafana and alerting systems.</p></p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="work-item">
-    
-          <label for="work-item-2"></label>
-    
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">Jul 2021</span>
-              <span class="endDate">- Jun 2023</span>
-            </div>
-            <div class="position">DevOps Engineer</div>
-            <div class="company">Telecom Argentina</div>
-          </header>
-    
-          <span class="fas fa-map-marker-alt"></span>
-          <span class="location">Ciudad Autónoma de Buenos Aires, Argentina</span>
-          <span class="url">
-            <span class="fas fa-external-link-alt"></span>
-            <a target="_blank" href="https://www.linkedin.com/company/209495">https://www.linkedin.com/company/209495</a>
-          </span>        <div class="item" id="work-item">
-            <div class="summary"><p><p>Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.</p><p>I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)</p></p></div>
-            <ul class="highlights">
-              <li><p><p>Worked on a massive streaming service on the frontend and backend.</p></p></li>
-              <li><p><p>Usage of technologies such as container orquestration (EKS y Openshift, ECS).</p></p></li>
-              <li><p><p>Usage of serverless technologies (Lambda, S3, ApiGW, Amplify)</p></p></li>
-              <li><p><p>Cloud and on premise.</p></p></li>
-              <li><p><p>Migration of multiple applications to the cloud (AWS) with infrastructure as code (IaC)</p></p></li>
-              <li><p><p>Usage of CI/CD tooling such as Tekton, ArgoCD, CodePipelines and Gitlab CI.</p></p></li>
-            </ul>
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Projects <span class="item-count">(6)</span></h2>
-      </header>
-      <section id="projects">
-        <section class="project-item">
-            <label for="project-item-0"></label>
-    
-          <header class="clear">
-            <div class="position">Student exchange in Alzey, Germany</div>
-            <div class="date">
-              <span class="startDate">Dec 2014</span>
-              <span class="endDate">- Feb 2015</span>
-            </div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>I had the oportunity and luck to realize an student exchange with an amazing family.</p><p>This experience had 2 parts: 3 months in Germany and 3 mounths where my german partner came to my home in Argentina.</p><p>It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.</p></p></div>
-          </div>
-        </section>
-        <section class="project-item">
-            <label for="project-item-1"></label>
-    
-          <header class="clear">
-            <div class="position">3D Printer from scratch</div>
-            <div class="date">
-              <span class="startDate">Jan 2016</span>
-              <span class="endDate">- Jan 2020</span>
-            </div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>It all started with 2 friends with desire and curiosity to build a CNC router. Being the boom of 3D printing it ending beeing a proyect to build a printer.</p><p>Most people buys a preasembled kit but in this case it took hours to design, forge and build piece by piece.</p><p>It had many iterations and versions, until we finaly achieved our goal.</p><p>We learnt a lot with this proyect which took a lot of work of investigation, efford, countless hours and teamwork.</p></p></div>
-          </div>
-        </section>
-        <section class="project-item">
-            <label for="project-item-2"></label>
-    
-          <header class="clear">
-            <div class="position">Barcode scanner and shoplist</div>
-            <div class="date">
-              <span class="startDate">Jan 2021</span>
-              <span class="endDate">- Dec 2021</span>
-            </div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>For my personal use y bought a barcode scanner (like the ones on the supermarket) and programmed it so that every time a product gets scanned, it gets added to my shoplist.</p><p>This way, every time I went to the supermarket, I had my shopping list effortless.</p><p>I used linux, python and learnt web scraping. for this proyect.</p></p></div>
-          </div>
-        </section>
-        <section class="project-item">
-            <label for="project-item-3"></label>
-    
-          <header class="clear">
-            <div class="position">TANKs</div>
-            <div class="date">
-              <span class="startDate">Jan 2019</span>
-              <span class="endDate">- Dec 2019</span>
-            </div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>This was a proyect I've built at the University with some partners.</p><p>The idea was to build a robot to deliver goods autonomously in a predefined area (an office, a Warehouse or an open space).</p><p>It consisted on a landmarked area and a robot with a compartment, some access control, proximity and light sensors and a remote connection</p><p>Basically after loading the payload, you indicated the waypoint, and the robot realizes the delivery.</p><p>By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.</p></p></div>
-          </div>
-        </section>
-        <section class="project-item">
-            <label for="project-item-4"></label>
-    
-          <header class="clear">
-            <div class="position">Domotics</div>
-            <div class="date">
-              <span class="startDate">Jan 2016</span>
-              <span class="endDate">- Dec 2016</span>
-            </div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>I worked on an interactive model of a home,and programmed it with multiple sensors and Arduino boards.</p><p>It involved demonstration of automated lighting, openings and smart refrigeration.</p></p></div>
-          </div>
-        </section>
-        <section class="project-item">
-            <label for="project-item-5"></label>
-    
-          <header class="clear">
-            <div class="position">Other Projects</div>
-          </header>
-          <div class="item">
-              <div class="summary"><p><p>I'm used to work in countless projects without counting on the previous mentioned projects.</p><p>Web Pages, Phone Apps, IoT, electronics and domotics.</p><p>Also homemade expriments, handmade stuff y aand a little gardening.</p><p>I'm restless and every time I see an issue a problem or just something to learn about I want to get involved and kill that curiosity.</p></p></div>
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Education <span class="item-count">(4)</span></h2>
-      </header>
-    
-      <section id="education">
-        <section class="education-item">
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">
-              2011
-              </span>
-              <span class="endDate">
-              - 2016
-              </span>
-            </div>
-            <div class="header-left">
-              <div class="studyType">
-                Baccalaureate specialized in natural sciences, literature and languages
-              </div>
-              <div class="area">
-                elementary, secondary and high school
-              </div>
-              <div class="institution">
-                Colegio Pestalozzi / Pestalozzi Schule
-              </div>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-        <section class="education-item">
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">
-              2017
-              </span>
-              <span class="endDate">
-              - 2018
-              </span>
-            </div>
-            <div class="header-left">
-              <div class="studyType">
-                Junior Manager in industrial administration (Industriekaufmann)
-              </div>
-              <div class="area">
-                Business, management, marketing and related disciplines
-              </div>
-              <div class="institution">
-                BBZ - BerufsBildungsZentrum
-              </div>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-        <section class="education-item">
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">
-              2017
-              </span>
-              <span class="endDate">
-              - 2020
-              </span>
-            </div>
-            <div class="header-left">
-              <div class="studyType">
-                Engineering degree
-              </div>
-              <div class="area">
-                Electronic engineering (not finished)
-              </div>
-              <div class="institution">
-                Universidad Tecnológica Nacional (UTN FRBA)
-              </div>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-        <section class="education-item">
-          <header class="clear">
-            <div class="date">
-              <span class="startDate">
-              2020
-              </span>
-              <span class="endDate">
-              - Current
-              </span>
-            </div>
-            <div class="header-left">
-              <div class="studyType">
-                Multimedia design (Videogames)
-              </div>
-              <div class="area">
-                Design and Programming of Virtual Simulators
-              </div>
-              <div class="institution">
-                DaVinci
-              </div>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-      </section>
-    </section>
-      <section class="section">
-        <header>
-          <h2 class="section-title">Certificates</h2>
-        </header>
-        <section id="certificates">
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2016-12-31
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      First Certificate in English (FCE) - ESOL International
-                    </div>
-                    <div class="issuer">
-                      University of Cambridge
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2016-10-27
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Deutsches Sprachdiplom II (DSD II)
-                    </div>
-                    <div class="issuer">
-                      Kultusministerkonferenz (KMK)
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2018-12-12
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Wirtschaftsdeutsch International
-                    </div>
-                    <div class="issuer">
-                      Deutsch-Argentinische Industrie- und Handelskammer (AHK)
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2018-11-27
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Industriekaufmann (Junior Manager in industrial administration)
-                    </div>
-                    <div class="issuer">
-                      Deutscher Industrie- und Handelskammertag (DIHK) und DE Berufsbildungszentrum (BBZ Instituto Ballerster)
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2018-12-31
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Fachhochschulreife
-                    </div>
-                    <div class="issuer">
-                      Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2021-10-15
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Red Hat OpenShift Development II: Containerizing Applications (DO288)
-                    </div>
-                    <div class="issuer">
-                      RedHat
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568">https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2021-09-23
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)
-                    </div>
-                    <div class="issuer">
-                      RedHat
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94">https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2021-12-02
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Building Resilient Microservices with Istio and Red Hat OpenShift Service Mesh (DO328)
-                    </div>
-                    <div class="issuer">
-                      RedHat
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92">https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-02-12
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Secure Container Images in CI/CD (Advanced)
-                    </div>
-                    <div class="issuer">
-                      DevSecOps Academy
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2">https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-02-12
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Building Secure Container Images in CI/CD with Clair
-                    </div>
-                    <div class="issuer">
-                      DevSecOps Academy
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png">https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-02-12
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Building Secure Container Images in CI/CD with Trivy
-                    </div>
-                    <div class="issuer">
-                      DevSecOps Academy
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png">https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-02-12
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Anchore for Secure Container Images
-                    </div>
-                    <div class="issuer">
-                      DevSecOps Academy
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png">https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2021-06-30
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      AWS Cloud Practitioner
-                    </div>
-                    <div class="issuer">
-                      EducacionIT
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-                  <span class="url">
-                    <span class="fas fa-external-link-alt"></span>
-                    <a target="_blank" href="https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732">https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732</a>
-                  </span>
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-03-07
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      AWS Technical Essentials
-                    </div>
-                    <div class="issuer">
-                      Amazon Web Services - AWS Training &amp; Certification
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-            <section class="certificate-item">
-              <header class="clear">
-                  <div class="date">
-                    2022-03-17
-                  </div>
-                <div class="header-left">
-                    <div class="name">
-                      Architecting on AWS
-                    </div>
-                    <div class="issuer">
-                      Amazon Web Services - AWS Training &amp; Certification
-                    </div>
-                </div>
-              </header>
-    
-              <div class="item">
-              </div>
-            </section>
-        </section>
-      </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Languages</h2>
-      </header>
-      <section id="languages">
-        <div class="display">
-          <h3 class="language">
-            Español (ES)
-          </h3>
-          <div class="item">
-            <div class="level fluency native speaker">
-              <em>Native Speaker</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-        <div class="display">
-          <h3 class="language">
-            Deutsch (DE)
-          </h3>
-          <div class="item">
-            <div class="level fluency advanced (c1)">
-              <em>Advanced (C1)</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-        <div class="display">
-          <h3 class="language">
-            English (EN)
-          </h3>
-          <div class="item">
-            <div class="level fluency advanced (b2)">
-              <em>Advanced (B2)</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title' class='section-title'>Interests</h2>
-      </header>
-      <section id="interests">
-        <div class="item">
-          <h3 class="name">
-            Wildlife
-          </h3>
-          <ul class="keywords">
-            <li>Animals</li>
-            <li>Landscapes</li>
-            <li>Nature</li>
-            <li>sea life</li>
-          </ul>
-        </div>
-        <div class="item">
-          <h3 class="name">
-            Nautic sports
-          </h3>
-          <ul class="keywords">
-            <li>Sailing</li>
-            <li>Diving</li>
-            <li>Swimming</li>
-          </ul>
-        </div>
-        <div class="item">
-          <h3 class="name">
-            Music
-          </h3>
-          <ul class="keywords">
-            <li>Rock&#x27;n Roll</li>
-            <li>Electro dance music</li>
-            <li>80&#x27;s music</li>
-          </ul>
-        </div>
-        <div class="item">
-          <h3 class="name">
-            Technology
-          </h3>
-          <ul class="keywords">
-            <li>3D printing</li>
-            <li>open source</li>
-            <li>robotics</li>
-          </ul>
-        </div>
-        <div class="item">
-          <h3 class="name">
-            Gaming
-          </h3>
-          <ul class="keywords">
-            <li>Shooters</li>
-            <li>Open World</li>
-            <li>Party</li>
-            <li>BoardGames</li>
-          </ul>
-        </div>
-      </section>
-    </section>
-
-  </body>
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+<!-- Header Name -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Germán Ignacio Fodino
+					</h1>
+					<h2>
+						DevOps - GameDev - Dev
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+<!-- Basics -->
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">german.fodino@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://german.fodino.net/">https://german.fodino.net/</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Summary -->
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>Summary</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Llevo años trabajando como ingeniero de DevOps, perfeccionando mis habilidades y conocimientos en el camino.
+La mayoría de lo que sé lo he aprendido por mi cuenta, aunque también he obtenido certificaciones porque disfruto mucho aprender cosas nuevas y mantenerme al día con las últimas tecnologías.
+Enseñar, colaborar y ayudar a otros e innovar es algo que me encanta.
+Soy analítico, curioso, transparente y de mente abierta, lo que me facilita trabajar en equipo y colaborar de manera efectiva.
+Si deseas conocer más sobre mí y si encuentras interesante mi perfil, no dudes en contactarme!
+</p>
+		</div>
+	</section>
+<!-- Social Media -->
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/gif30">@gif30</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/gifodino">@gifodino</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- WORK -->
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Sartorius</span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2017-02-28 — 2018-12-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.linkedin.com/company/15749">https://www.linkedin.com/company/15749</a>
+				</div>
+				<div class="position">
+					Pasante
+				</div>
+				<div class="summary">
+					<p>Mi primera experiencia laboral en el área de ventas.
+Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio de &quot;aprender haciendo&quot; para obtener una visión general de todos los sectores de una empresa.
+</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Servicio técnico</li>
+					<li class="bullet">Ventas</li>
+					<li class="bullet">Finanzas - Cobranzas y Tesorería</li>
+					<li class="bullet">Operaciones comerciales - Comercio exterior, Servicio al cliente, Licitaciones y Facturación</li>
+					<li class="bullet">Aseguramiento de calidad y Control de calidad</li>
+					<li class="bullet">Almacén y Logística</li>
+					<li class="bullet">Recepción</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Iquall Networks</span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2019-09-01 — 2021-07-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.linkedin.com/company/206170">https://www.linkedin.com/company/206170</a>
+				</div>
+				<div class="position">
+					Ingeniero DevOps
+				</div>
+				<div class="summary">
+					<p>Mi primera experiencia laboral como Ingeniero DevOps.
+Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
+</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.</li>
+					<li class="bullet">Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).</li>
+					<li class="bullet">Trabajé en la implementación del lado del servidor en ambos proyectos (frontend y backend).</li>
+					<li class="bullet">Adquirí experiencia con herramientas de scripting y plantillas como Python, shell, Jinja2 y Ansible.</li>
+					<li class="bullet">Uso de tecnologías de contenedores como Kubernetes, Docker y docker-compose.</li>
+					<li class="bullet">Uso de herramientas de monitoreo como Prometheus, Influx y Grafana y sistemas de alerta.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Telecom Argentina</span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2021-07-01 — 2023-06-09
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.linkedin.com/company/209495">https://www.linkedin.com/company/209495</a>
+				</div>
+				<div class="position">
+					Ingeniero DevOps
+				</div>
+				<div class="summary">
+					<p>Telecom es una de las empresas de telecomunicaciones más grandes (si no la más grande) en Argentina.
+Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
+</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Trabajé en un servicio de streaming masivo tanto en el frontend como en el backend.</li>
+					<li class="bullet">Uso de tecnologías como orquestación de contenedores (EKS y Openshift, ECS).</li>
+					<li class="bullet">Uso de tecnologías sin servidor (Lambda, S3, ApiGW, Amplify).</li>
+					<li class="bullet">Cloud y on-premise.</li>
+					<li class="bullet">Migración de múltiples aplicaciones a la nube (AWS) con infraestructura como código (IaC).</li>
+					<li class="bullet">Uso de herramientas de CI/CD como Tekton, ArgoCD, CodePipelines y Gitlab CI.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Volunteer (Not used) -->
+<!-- Education -->
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Colegio Pestalozzi / Pestalozzi Schule</span>
+					<span class="date">
+						2011-12-31 — 2016-12-31
+					</span>
+				</h4>
+				<div class="area">
+					primaria, secundaria y bachillerato
+				</div>
+				<div class="studyType">
+					Bachillerato especializado en ciencias naturales, literatura y lenguas
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BBZ - BerufsBildungsZentrum</span>
+					<span class="date">
+						2017-12-31 — 2018-12-31
+					</span>
+				</h4>
+				<div class="area">
+					Negocios, administración, marketing y disciplinas afines
+				</div>
+				<div class="studyType">
+					Junior Manager en administración industrial (Industriekaufmann)
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Universidad Tecnológica Nacional (UTN FRBA)</span>
+					<span class="date">
+						2017-12-31 — 2020-12-31
+					</span>
+				</h4>
+				<div class="area">
+					Ingeniería Electrónica (no finalizada)
+				</div>
+				<div class="studyType">
+					Ingeniería
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>DaVinci</span>
+					<span class="date">
+						2020-12-31 — 
+					</span>
+				</h4>
+				<div class="area">
+					Diseño y Programación de Simuladores Virtuales
+				</div>
+				<div class="studyType">
+					Diseño multimedia (Videojuegos)
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Certificates -->
+	<section id="work" class="row">
+	<!-- <section id="certificates" class="row"> -->
+			<aside class="col-sm-3">
+			<h3>Certificates</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2016-12-31
+					</span>
+				</h4>
+				<div class="position">
+					First Certificate in English (FCE) - ESOL International
+				</div>
+				<div class="summary">
+					<p>University of Cambridge</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2016-10-27
+					</span>
+				</h4>
+				<div class="position">
+					Deutsches Sprachdiplom II (DSD II)
+				</div>
+				<div class="summary">
+					<p>Kultusministerkonferenz (KMK)</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2018-12-12
+					</span>
+				</h4>
+				<div class="position">
+					Wirtschaftsdeutsch International
+				</div>
+				<div class="summary">
+					<p>Deutsch-Argentinische Industrie- und Handelskammer (AHK)</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2018-11-27
+					</span>
+				</h4>
+				<div class="position">
+					Industriekaufmann (Junior Manager in industrial administration)
+				</div>
+				<div class="summary">
+					<p>Deutscher Industrie- und Handelskammertag (DIHK) und DE Berufsbildungszentrum (BBZ Instituto Ballerster)</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2018-12-31
+					</span>
+				</h4>
+				<div class="position">
+					Fachhochschulreife
+				</div>
+				<div class="summary">
+					<p>Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2021-10-15
+					</span>
+				</h4>
+				<div class="position">
+					Red Hat OpenShift Development II: Containerizing Applications (DO288)
+				</div>
+				<div class="summary">
+					<p>RedHat</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2021-09-23
+					</span>
+				</h4>
+				<div class="position">
+					Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)
+				</div>
+				<div class="summary">
+					<p>RedHat</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2021-12-02
+					</span>
+				</h4>
+				<div class="position">
+					Building Resilient Microservices with Istio and Red Hat OpenShift Service Mesh (DO328)
+				</div>
+				<div class="summary">
+					<p>RedHat</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-02-12
+					</span>
+				</h4>
+				<div class="position">
+					Secure Container Images in CI/CD (Advanced)
+				</div>
+				<div class="summary">
+					<p>DevSecOps Academy</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-02-12
+					</span>
+				</h4>
+				<div class="position">
+					Building Secure Container Images in CI/CD with Clair
+				</div>
+				<div class="summary">
+					<p>DevSecOps Academy</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-02-12
+					</span>
+				</h4>
+				<div class="position">
+					Building Secure Container Images in CI/CD with Trivy
+				</div>
+				<div class="summary">
+					<p>DevSecOps Academy</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-02-12
+					</span>
+				</h4>
+				<div class="position">
+					Anchore for Secure Container Images
+				</div>
+				<div class="summary">
+					<p>DevSecOps Academy</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2021-06-30
+					</span>
+				</h4>
+				<div class="position">
+					AWS Cloud Practitioner
+				</div>
+				<div class="summary">
+					<p>EducacionIT</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-03-07
+					</span>
+				</h4>
+				<div class="position">
+					AWS Technical Essentials
+				</div>
+				<div class="summary">
+					<p>Amazon Web Services - AWS Training &amp; Certification</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span> 
+					<!-- <span></span>  -->
+					<span class="date">
+						2022-03-17
+					</span>
+				</h4>
+				<div class="position">
+					Architecting on AWS
+				</div>
+				<div class="summary">
+					<p>Amazon Web Services - AWS Training &amp; Certification</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Awards (Not used) -->
+<!-- Publications (Not used) -->
+<!-- Skills -->
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>DevOps</h4>
+				</div>
+				<ul class="keywords">
+					<li>Continous Integration (Tekton, Github, Gitlab CI )</li>
+					<li>Continous Delivery (ArgoCD)</li>
+					<li>IaC (Terraform, CDK)</li>
+					<li>GitOps &amp; GitFlow</li>
+					<li>Cloud &amp; On-Prem</li>
+					<li>Scripting (Python, Shell)</li>
+					<li>VMs, Containers &amp; Serverless</li>
+					<li>Integraciones de QA y seguridad</li>
+					<li>Agile (Scrum/Kanban)</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Containers</h4>
+				</div>
+				<ul class="keywords">
+					<li>Docker</li>
+					<li>docker-compose</li>
+					<li>Kubernetes (K8s, Openshift, AWS EKS)</li>
+					<li>Elastic Container Service (ECS)</li>
+					<li>Administración de Clusters</li>
+					<li>Despliegue de aplicaciones (Helm, ArgoCD, Kustomize, Skaffold, Tekton)</li>
+					<li>Redes - Service Mesh - API Gateway</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Cloud Computing</h4>
+				</div>
+				<ul class="keywords">
+					<li>Amazon Web Services (AWS)</li>
+					<li>Infrastructura como código (IaC) CDK</li>
+					<li>Serverless (Lambda)</li>
+					<li>VMs (EC2)</li>
+					<li>Containers (EKS, ECS)</li>
+					<li>Internet de las cosas (IoT)</li>
+					<li>Bases de Datos (RDS, Aurora, SQL/NoSQL)</li>
+					<li>Motores de Busqueda (OpenSearch/ElasticSearch)</li>
+					<li>AWS Amplify</li>
+					<li>AWS Api-Gateway</li>
+					<li>AWS CloudFront</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>System Administration (SRE)</h4>
+				</div>
+				<ul class="keywords">
+					<li>Linux/UNIX (Debian, Ubuntu, Arch, etc.)</li>
+					<li>Web servers (Nginx, Envoy) &amp; app hosting</li>
+					<li>Config Automation (Ansible)</li>
+					<li>Gestión y supervisión de sistemas automatizados</li>
+					<li>Administrador de clusters de Kubernetes/Openshift</li>
+					<li>Monitoring (Grafana, Prometheus, InfluxDB)</li>
+					<li>Logging (Loki, ElasticSearch (ELK), Fluentd)</li>
+					<li>Alerting (AlertManager, Alerta.io, Slack)</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programación</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>TypeScript</li>
+					<li>Node.js (JavaScript)</li>
+					<li>Mobile - Flutter (Dart)</li>
+					<li>Golang (Go)</li>
+					<li>C | C++ | C#</li>
+					<li>Open source</li>
+					<li>Version control &amp; management (git)</li>
+					<li>Game Development</li>
+					<li>Web Scraping</li>
+					<li>RobotFramework &amp; Selenium (Testing)</li>
+					<li>SQL and NoSQL Databases (MongoDB, Postgres)</li>
+					<li>Arduino y otros sistemas embebidos.</li>
+					<li>Conocimientos basicos de electrónica.</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Soft Skills</h4>
+				</div>
+				<ul class="keywords">
+					<li>Trabajo en equipo</li>
+					<li>Habilidades de comunicación</li>
+					<li>Transparencia</li>
+					<li>Planificación estratégica</li>
+					<li>Líder de equipo</li>
+					<li>Gestión</li>
+					<li>Flexibilidad</li>
+					<li>Mentalidad de crecimiento</li>
+					<li>Aprendizaje rápido</li>
+					<li>Creatividad</li>
+					<li>Autodidacta</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Languages -->
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Español (ES)</strong>
+				</div>
+				<div class="fluency">
+					Native Speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Deutsch (DE)</strong>
+				</div>
+				<div class="fluency">
+					Advanced (C1)
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English (EN)</strong>
+				</div>
+				<div class="fluency">
+					Advanced (B2)
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- Interests -->
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Vida Salvaje</h4>
+				</div>
+				<ul class="keywords">
+					<li>Animales</li>
+					<li>Paisajes</li>
+					<li>Naturaleza</li>
+					<li>Vida marina</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Deportes Náuticos</h4>
+				</div>
+				<ul class="keywords">
+					<li>Vela</li>
+					<li>Buceo</li>
+					<li>Natación</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Música</h4>
+				</div>
+				<ul class="keywords">
+					<li>Rock&#x27;n Roll</li>
+					<li>Música de baile electrónica (EDM)</li>
+					<li>Música de los 80s</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tecnología</h4>
+				</div>
+				<ul class="keywords">
+					<li>Impresión 3D</li>
+					<li>Código abierto</li>
+					<li>Robótica</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Videojuegos</h4>
+				</div>
+				<ul class="keywords">
+					<li>Shooters</li>
+					<li>Mundo abierto</li>
+					<li>Party</li>
+					<li>Juegos de Mesa</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+<!-- References (Not used) -->
+
+	</div>
+	</body>
 </html>
