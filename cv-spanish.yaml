@@ -11,10 +11,16 @@ basics:
   image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
-    Nací en 1998 en Buenos Aires, Argentina. Asistí a una escuela alemana donde aprendí mucho sobre su idioma y cultura.
-    Me encanta aprender cosas nuevas, enseñar y contribuir a la innovación. Por eso, la tecnología es mi pasión.
-    También soy alguien muy analítico, curioso, transparente y de mente abierta, lo cual me ayuda mucho cuando trabajo con otras personas.
-    Si deseas saber más sobre mí y te ha gustado mi perfil, ¡no dudes en contactarme!
+    Llevo años trabajando como ingeniero de DevOps, perfeccionando mis habilidades y conocimientos en el camino.
+    La mayoría de lo que sé lo he aprendido por mi cuenta, aunque también he obtenido certificaciones porque disfruto mucho aprender cosas nuevas y mantenerme al día con las últimas tecnologías.
+    Enseñar, colaborar y ayudar a otros e innovar es algo que me encanta.
+    Soy analítico, curioso, transparente y de mente abierta, lo que me facilita trabajar en equipo y colaborar de manera efectiva.
+    Si deseas conocer más sobre mí y si encuentras interesante mi perfil, no dudes en contactarme!
+
+  # Nací en 1998 en Buenos Aires, Argentina. Asistí a una escuela alemana donde aprendí mucho sobre su idioma y cultura.
+  # Me encanta aprender cosas nuevas, enseñar y contribuir a la innovación. Por eso, la tecnología es mi pasión.
+  # También soy alguien muy analítico, curioso, transparente y de mente abierta, lo cual me ayuda mucho cuando trabajo con otras personas.
+  # Si deseas saber más sobre mí y te ha gustado mi perfil, ¡no dudes en contactarme!
 
   # Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
   # Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
