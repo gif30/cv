@@ -85,6 +85,7 @@ skills:
       - Docker
       - docker-compose
       - Kubernetes (K8s, Openshift, AWS EKS)
+      - Elastic Container Service (ECS)
       - Cluster Administration
       - App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
       - Networking - Service Mesh - API Gateway

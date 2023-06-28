@@ -75,6 +75,7 @@ skills:
       - Docker
       - docker-compose
       - Kubernetes (K8s, Openshift, AWS EKS)
+      - Elastic Container Service (ECS)
       - Administración de Clusters
       - Despliegue de aplicaciones (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
       - Redes - Service Mesh - API Gateway
@@ -160,7 +161,7 @@ education:
     # courses: []
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
-    area: Ingeniería Electrónica (not finished)
+    area: Ingeniería Electrónica (no finalizada)
     studyType: Ingeniería
     startDate: "2017-12-31"
     endDate: "2020-12-31"
@@ -365,7 +366,7 @@ projects:
       Este fue un proyecto que construí en la universidad con algunos compañeros.
       La idea era construir un robot para entregar mercancías de forma autónoma en un área predefinida (una oficina, un almacén o un espacio abierto).
       Consistía en un área marcada y un robot con un compartimento, algunos sensores de control de acceso, proximidad y luz, y una conexión remota.
-      Básicamente, después de cargar la carga, indicabas el punto de referencia y el robot realizaba la entrega.
+      Básicamente, después de añadir la carga, se indica el punto de referencia y el robot realiza la entrega.
       La forma en que funcionaba permitía agregar o quitar las rutas fácilmente, lo que lo hacía escalable y flexible de implementar.
     startDate: "2019-01-01"
     endDate: "2019-12-31"
@@ -413,4 +414,3 @@ interests:
       - Shooters
       - Supervivencia
       - Mundo abierto
-

@@ -4,9 +4,9 @@
 
 ## Prospective employers
 
-Visit the HTML version at https://gif30.com/cv.
+Visit the HTML version at <https://gif30.com/cv>.
 
-Or, view the raw YAML at  https://github.com/gif30/cv/blob/main/cv.yaml.
+Or, view the raw YAML at  <https://github.com/gif30/cv/blob/main/cv.yaml>.
 
 ## Background
 
