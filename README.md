@@ -20,6 +20,18 @@ supports YAML because YAML, on the other hand, is easy to create and edit.
 It's also extremely human readable and that's the main point of a
 CV/resumé.
 
+## First usage
+
+``` bash
+#sudo apt-get install libnss3
+#sudo apt-get install ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
+npm ci
+
+export JSONCV_THEME=kendall
+#npm run export-pdf
+npm run export-html
+```
+
 ## Building
 
 Any commit or change made to this repository will automatically deploy the

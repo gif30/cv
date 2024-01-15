@@ -202,7 +202,7 @@ work:
     position: Intern
     startDate: "2017-02-28"
     endDate: "2018-12-31"
-    url: https://www.linkedin.com/company/15749
+    url: https://www.linkedin.com/company/sartorius/
     location: Buenos Aires, Argentina
     highlights:
       - Technical service
@@ -230,7 +230,7 @@ work:
     summary: |
       My first working experience as DevOps.
       Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
-    url: https://www.linkedin.com/company/206170
+    url: https://www.linkedin.com/company/iquall-networks/
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Telecom Argentina
@@ -247,8 +247,25 @@ work:
     summary: |
       Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.
       I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)
-    url: https://www.linkedin.com/company/209495
+    url: https://www.linkedin.com/company/telecom-argentina/
     location: Ciudad Autónoma de Buenos Aires, Argentina
+
+  - name: Santander (via Talan)
+    position: DevOps Engineer / Comms Engineer
+    startDate: "2022-04-15"
+    endDate: "2024-01-29"
+    highlights:
+      - Worked on automation and infrastructure for the Networking and Communications area.
+      - Usage of technologies such as containers (Docker), Python and Ansible.
+      - Worked with F5 Balancers, ServiceNow, Infoblox and Cisco routers and switches.
+      - Large scale certificates rotation and management.
+      - Large scale DNS, DHCP and enrouting management.
+      - CMDB and ticketing system management for compliance and integration.
+    summary: |
+      Santander is one of the largest (if not the largest) Bank in Spain and one of the biggest in the world.
+      I've worked here for the Networking and Communications area in Santander CIB Global division (Corporate & Investment Banking)
+    url: https://www.linkedin.com/company/banco-santander/
+    location: Málaga, Spain
 
 certificates:
 
