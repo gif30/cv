@@ -7,7 +7,7 @@ meta:
   canonical: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json
 basics:
   name: Germán Ignacio Fodino
-  label: DevOps - GameDev - Dev
+  label: DevOps - Platform Engineer - GameDev - Dev
   image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
@@ -48,12 +48,19 @@ basics:
   website: https://german.fodino.net/
   email: german.fodino@gmail.com
 
+  # location:
+  #   city: Buenos Aires City
+  #   countryCode: CABA
+  #   address: "Av. Triunvirato 4125"
+  #   postalCode: "1431"
+  #   region: Buenos Aires
   location:
-    city: Buenos Aires City
-    countryCode: CABA
-    address: "Av. Triunvirato 4125"
-    postalCode: "1431"
-    region: Buenos Aires
+    city: Málaga
+    countryCode: ES
+    address: "Calle Francisco Pacheco 7 5C1"
+    postalCode: "29004"
+    region: Andalucía
+
 
   profiles:
     - network: GitHub
@@ -68,23 +75,29 @@ skills:
   - name: DevOps
     level: Master  # Very Advanced
     keywords:
-      - Continous Integration (Tekton, Github, Gitlab CI )
+      - Continous Integration (Tekton, Github Actions, Gitlab CI )
       # - Continous Integration (Tekton, Github actions, Gitlab CI )
-      - Continous Delivery (ArgoCD)
-      - IaC (Terraform, CDK)
+      - Continous Deployment (ArgoCD)
+      - IaC (Terraform, CDK, Pulumi)
       - GitOps & GitFlow
       - Cloud & On-Prem
       - Scripting (Python, Shell)
       - VMs, Containers & Serverless
       - Security and QA integrations
       - Agile (Scrum/Kanban)
-
+      # - Observability (Prometheus, Grafana, Loki, AlertManager)
+      # - Networking (Service Mesh, API Gateway)
+      # - Automation (Ansible, Puppet, Chef)
+      # - Monitoring (Prometheus, Grafana, Loki, AlertManager)
+      # - Logging (Loki, ElasticSearch (ELK), Fluentd)
+      # - Alerting (AlertManager, Alerta.io, Slack)
+      
   - name: Containers
     level: Master
     keywords:
       - Docker
       - docker-compose
-      - Kubernetes (K8s, Openshift, AWS EKS)
+      - Kubernetes (K8s, Openshift, AWS, GKE, EKS)
       - Elastic Container Service (ECS)
       - Cluster Administration
       - App Deployment (Helm, ArgoCD, Kustomize, Skaffold, Tekton)

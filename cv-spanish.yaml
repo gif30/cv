@@ -7,7 +7,7 @@ meta:
   canonical: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json
 basics:
   name: Germán Ignacio Fodino
-  label: DevOps - GameDev - Dev
+  label: DevOps - Platform Engineer - GameDev - Dev
   image: "https://github.com/gif30/cv/raw/main/me.jpg"
 
   summary: |
@@ -38,12 +38,18 @@ basics:
   website: https://german.fodino.net/
   email: german.fodino@gmail.com
 
+  # location:
+  #   city: Buenos Aires City
+  #   countryCode: CABA
+  #   address: "Av. Triunvirato 4125"
+  #   postalCode: "1431"
+  #   region: Buenos Aires
   location:
-    city: Buenos Aires City
-    countryCode: CABA
-    address: "Av. Triunvirato 4125"
-    postalCode: "1431"
-    region: Buenos Aires
+    city: Málaga
+    countryCode: ES
+    address: "Calle Francisco Pacheco 7 5C1"
+    postalCode: "29004"
+    region: Andalucía
 
   profiles:
     - network: GitHub
@@ -58,10 +64,10 @@ skills:
   - name: DevOps
     level: Master  # Very Advanced
     keywords:
-      - Continous Integration (Tekton, Github, Gitlab CI )
+      - Continous Integration (Tekton, Github Actions, Gitlab CI )
       # - Continous Integration (Tekton, Github actions, Gitlab CI )
-      - Continous Delivery (ArgoCD)
-      - IaC (Terraform, CDK)
+      - Continous Deployment (ArgoCD)
+      - IaC (Terraform, CDK, Pulumi)
       - GitOps & GitFlow
       - Cloud & On-Prem
       - Scripting (Python, Shell)
@@ -74,7 +80,7 @@ skills:
     keywords:
       - Docker
       - docker-compose
-      - Kubernetes (K8s, Openshift, AWS EKS)
+      - Kubernetes (K8s, Openshift, AWS, GKE, EKS)
       - Elastic Container Service (ECS)
       - Administración de Clusters
       - Despliegue de aplicaciones (Helm, ArgoCD, Kustomize, Skaffold, Tekton)
@@ -239,6 +245,23 @@ work:
       Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
     url: https://www.linkedin.com/company/209495
 
+  - name: Santander (via Talan)
+    position: DevOps Engineer / Comms Engineer
+    startDate: "2022-04-15"
+    endDate: "2024-01-29"
+    highlights:
+      - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
+      - Uso de tecnologías como contenedores (Docker), Python y Ansible.
+      - Trabajé con balanceadores F5, ServiceNow, Infoblox y routers y switches de Cisco.
+      - Rotación y gestión de certificados a gran escala.
+      - Gestión de DNS, DHCP y enrutamiento a gran escala.
+      - Gestión de CMDB y sistemas de tickets para cumplimiento e integración.
+    summary: |
+      Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
+      He trabajado aquí para el área de Redes y Comunicaciones en la división Santander CIB Global (Corporate & Investment Banking).
+
+    url: https://www.linkedin.com/company/banco-santander/
+    location: Málaga, Spain
 certificates:
 
   # Colegio
