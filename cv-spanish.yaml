@@ -62,7 +62,7 @@ basics:
 
 skills:
   - name: DevOps
-    level: Master  # Very Advanced
+    level: Master # Very Advanced
     keywords:
       - Continous Integration (Tekton, Github Actions, Gitlab CI )
       # - Continous Integration (Tekton, Github actions, Gitlab CI )
@@ -159,7 +159,7 @@ education:
     endDate: "2016-12-31"
     # score: ""
     # courses: []
-  - institution: BBZ - BerufsBildungsZentrum  # - Professional Training Center (Ballester Institute)
+  - institution: BBZ - BerufsBildungsZentrum # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Negocios, administración, marketing y disciplinas afines
     studyType: Junior Manager en administración industrial (Industriekaufmann)
@@ -198,7 +198,8 @@ work:
     position: Pasante
     startDate: "2017-02-28"
     endDate: "2018-12-31"
-    url: https://www.linkedin.com/company/15749
+    url: https://www.linkedin.com/company/sartorius/
+    # url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
     highlights:
       - Servicio técnico
@@ -226,7 +227,8 @@ work:
     summary: |
       Mi primera experiencia laboral como Ingeniero DevOps.
       Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
-    url: https://www.linkedin.com/company/206170
+    url: https://www.linkedin.com/company/iquall-networks/
+    # url: https://www.linkedin.com/company/206170
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Telecom Argentina
@@ -243,12 +245,14 @@ work:
     summary: |
       Telecom es una de las empresas de telecomunicaciones más grandes (si no la más grande) en Argentina.
       Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
-    url: https://www.linkedin.com/company/209495
+    url: https://www.linkedin.com/company/telecom-argentina/
+    # url: https://www.linkedin.com/company/209495
+    location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
     startDate: "2022-04-15"
-    endDate: "2024-01-29"
+    endDate: "2024-09-15"
     highlights:
       - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
       - Uso de tecnologías como contenedores (Docker), Python y Ansible.
@@ -256,14 +260,15 @@ work:
       - Rotación y gestión de certificados a gran escala.
       - Gestión de DNS, DHCP y enrutamiento a gran escala.
       - Gestión de CMDB y sistemas de tickets para cumplimiento e integración.
+      - Gestión y automatización de despliegues e instancias en AWS
     summary: |
       Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
       He trabajado aquí para el área de Redes y Comunicaciones en la división Santander CIB Global (Corporate & Investment Banking).
 
     url: https://www.linkedin.com/company/banco-santander/
     location: Málaga, Spain
-certificates:
 
+certificates:
   # Colegio
 
   # TODO agregar titulo del colegio
@@ -368,6 +373,7 @@ projects:
       Fue una experiencia increíble que me permitió experimentar una nueva cultura y un nuevo idioma desde una perspectiva interna.
     startDate: "2014-12-31"
     endDate: "2015-02-28"
+    # url: null
 
   - name: Impresora 3D desde cero
     summary: |
@@ -377,6 +383,7 @@ projects:
       Aprendimos mucho con este proyecto, que requirió mucho trabajo de investigación, esfuerzo, incontables horas y trabajo en equipo.
     startDate: "2016"
     endDate: "2020"
+    # url: null
 
   - name: Escáner de códigos de barras y lista de compras
     summary: |
@@ -385,6 +392,7 @@ projects:
       Utilicé Linux, Python y aprendí sobre web scraping para este proyecto.
     startDate: "2021-01-01"
     endDate: "2021-12-31"
+    # url: null
 
   - name: TANKs
     summary: |
@@ -395,6 +403,7 @@ projects:
       La forma en que funcionaba permitía agregar o quitar las rutas fácilmente, lo que lo hacía escalable y flexible de implementar.
     startDate: "2019-01-01"
     endDate: "2019-12-31"
+    # url: null
 
   - name: Domótica
     summary: |
@@ -402,6 +411,7 @@ projects:
       Incluyó demostraciones de iluminación automatizada, aperturas y refrigeración inteligente.
     startDate: "2016-01-01"
     endDate: "2016-12-31"
+    # url: null
 
   - name: Otros Proyectos
     summary: |
@@ -424,9 +434,9 @@ interests:
       - Natación
   - name: Música
     keywords:
-      - Rock'n Roll
-      - Música de baile electrónica (EDM)
       - Música de los 80s
+      - Rock
+      - Música de baile electrónica (EDM)
 
   - name: Tecnología
     keywords:

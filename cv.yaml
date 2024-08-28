@@ -61,7 +61,6 @@ basics:
     postalCode: "29004"
     region: Andalucía
 
-
   profiles:
     - network: GitHub
       url: https://github.com/gif30
@@ -73,7 +72,7 @@ basics:
 
 skills:
   - name: DevOps
-    level: Master  # Very Advanced
+    level: Master # Very Advanced
     keywords:
       - Continous Integration (Tekton, Github Actions, Gitlab CI )
       # - Continous Integration (Tekton, Github actions, Gitlab CI )
@@ -91,7 +90,7 @@ skills:
       # - Monitoring (Prometheus, Grafana, Loki, AlertManager)
       # - Logging (Loki, ElasticSearch (ELK), Fluentd)
       # - Alerting (AlertManager, Alerta.io, Slack)
-      
+
   - name: Containers
     level: Master
     keywords:
@@ -176,7 +175,7 @@ education:
     endDate: "2016-12-31"
     # score: ""
     # courses: []
-  - institution: BBZ - BerufsBildungsZentrum  # - Professional Training Center (Ballester Institute)
+  - institution: BBZ - BerufsBildungsZentrum # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Business, management, marketing and related disciplines
     studyType: Junior Manager in industrial administration (Industriekaufmann)
@@ -216,6 +215,7 @@ work:
     startDate: "2017-02-28"
     endDate: "2018-12-31"
     url: https://www.linkedin.com/company/sartorius/
+    # url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
     highlights:
       - Technical service
@@ -244,6 +244,7 @@ work:
       My first working experience as DevOps.
       Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
     url: https://www.linkedin.com/company/iquall-networks/
+    # url: https://www.linkedin.com/company/206170
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Telecom Argentina
@@ -261,12 +262,13 @@ work:
       Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.
       I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)
     url: https://www.linkedin.com/company/telecom-argentina/
+    # url: https://www.linkedin.com/company/209495
     location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
     startDate: "2022-04-15"
-    endDate: "2024-01-29"
+    endDate: "2024-09-15"
     highlights:
       - Worked on automation and infrastructure for the Networking and Communications area.
       - Usage of technologies such as containers (Docker), Python and Ansible.
@@ -274,6 +276,7 @@ work:
       - Large scale certificates rotation and management.
       - Large scale DNS, DHCP and enrouting management.
       - CMDB and ticketing system management for compliance and integration.
+      - Automation and management of deployments and instances in AWS
     summary: |
       Santander is one of the largest (if not the largest) Bank in Spain and one of the biggest in the world.
       I've worked here for the Networking and Communications area in Santander CIB Global division (Corporate & Investment Banking)
@@ -281,7 +284,6 @@ work:
     location: Málaga, Spain
 
 certificates:
-
   # Colegio
 
   # TODO agregar titulo del colegio
@@ -447,9 +449,9 @@ interests:
       - Swimming
   - name: Music
     keywords:
-      - Rock'n Roll
-      - Electro dance music
       - 80's music
+      - Rock
+      - Electro dance music
 
   - name: Technology
     keywords:

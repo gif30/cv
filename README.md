@@ -32,6 +32,18 @@ export JSONCV_THEME=kendall
 npm run export-html
 ```
 
+## How to create index.html manually (EASY WAY)
+
+``` bash
+# esto
+npm run export-localtheme
+# o esto
+export JSONCV_THEME=flat
+npm run export-html
+# o en español
+npm run export-spanish
+```
+
 ## Building
 
 Any commit or change made to this repository will automatically deploy the
