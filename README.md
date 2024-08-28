@@ -44,6 +44,10 @@ npm run export-html
 npm run export-spanish
 ```
 
+## print nuevo de CV
+
+Me gusto esta pagina <https://carbon.now.sh/> para realizar un png con mi yaml y pasarlo a pdf. Habria que automatizarlo ya que cuando lo hice imprimi mas ancho por el texto y eliminar los comentarios
+
 ## Building
 
 Any commit or change made to this repository will automatically deploy the

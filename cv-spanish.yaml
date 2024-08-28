@@ -7,7 +7,7 @@ meta:
   canonical: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json
 basics:
   name: Germán Ignacio Fodino
-  label: DevOps - Platform Engineer - GameDev - Dev
+  label: DevOps & Cloud Engineer - Platform Engineer - GameDev - Dev
   image: https://github.com/gif30/cv/raw/main/me.jpg
 
   summary: |
@@ -210,6 +210,9 @@ work:
     position: Ingeniero DevOps
     startDate: 2019-09-01
     endDate: 2021-07-30
+    url: https://www.linkedin.com/company/iquall-networks/
+    # url: https://www.linkedin.com/company/206170
+    location: Ciudad Autónoma de Buenos Aires, Argentina
     highlights:
       - Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.
       - Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).
@@ -220,14 +223,14 @@ work:
     summary: |
       Mi primera experiencia laboral como Ingeniero DevOps.
       Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
-    url: https://www.linkedin.com/company/iquall-networks/
-    # url: https://www.linkedin.com/company/206170
-    location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Telecom Argentina
     position: Ingeniero DevOps
     startDate: 2021-07-01
     endDate: 2023-06-09
+    url: https://www.linkedin.com/company/telecom-argentina/
+    # url: https://www.linkedin.com/company/209495
+    location: Ciudad Autónoma de Buenos Aires, Argentina
     highlights:
       - Trabajé en un servicio de streaming masivo tanto en el frontend como en el backend.
       - Uso de tecnologías como orquestación de contenedores (EKS y Openshift, ECS).
@@ -238,14 +241,13 @@ work:
     summary: |
       Telecom es una de las empresas de telecomunicaciones más grandes (si no la más grande) en Argentina.
       Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
-    url: https://www.linkedin.com/company/telecom-argentina/
-    # url: https://www.linkedin.com/company/209495
-    location: Ciudad Autónoma de Buenos Aires, Argentina
 
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
     startDate: 2022-04-15
     endDate: 2024-09-15
+    url: https://www.linkedin.com/company/banco-santander/
+    location: Málaga, Spain
     highlights:
       - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
       - Uso de tecnologías como contenedores (Docker), Python y Ansible.
@@ -257,9 +259,6 @@ work:
     summary: |
       Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
       He trabajado aquí para el área de Redes y Comunicaciones y en Production Shared Services de la división Santander CIB Global (Corporate & Investment Banking).
-
-    url: https://www.linkedin.com/company/banco-santander/
-    location: Málaga, Spain
 
 certificates:
   # Colegio
