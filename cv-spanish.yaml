@@ -8,7 +8,7 @@ meta:
 basics:
   name: Germán Ignacio Fodino
   label: DevOps - Platform Engineer - GameDev - Dev
-  image: "https://github.com/gif30/cv/raw/main/me.jpg"
+  image: https://github.com/gif30/cv/raw/main/me.jpg
 
   summary: |
     Llevo años trabajando como ingeniero de DevOps, perfeccionando mis habilidades y conocimientos en el camino.
@@ -41,14 +41,14 @@ basics:
   # location:
   #   city: Buenos Aires City
   #   countryCode: CABA
-  #   address: "Av. Triunvirato 4125"
-  #   postalCode: "1431"
+  #   address: Av. Triunvirato 4125
+  #   postalCode: 1431
   #   region: Buenos Aires
   location:
     city: Málaga
     countryCode: ES
-    address: "Calle Francisco Pacheco 7 5C1"
-    postalCode: "29004"
+    address: Calle Georges Bizet 1, Esc 1 5ºB
+    postalCode: 29002
     region: Andalucía
 
   profiles:
@@ -151,53 +151,46 @@ skills:
       - Autodidacta
 
 education:
-  - institution: "Colegio Pestalozzi / Pestalozzi Schule"
+  # Pestalozzi
+  - institution: Colegio Pestalozzi / Pestalozzi Schule
     url: https://www.pestalozzi.edu.ar/
     area: primaria, secundaria y bachillerato
     studyType: Bachillerato especializado en ciencias naturales, literatura y lenguas
-    startDate: "2011-12-31"
-    endDate: "2016-12-31"
-    # score: ""
-    # courses: []
+    startDate: 2011-12-31
+    endDate: 2016-12-31
   - institution: BBZ - BerufsBildungsZentrum # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Negocios, administración, marketing y disciplinas afines
     studyType: Junior Manager en administración industrial (Industriekaufmann)
-    startDate: "2017-12-31"
-    endDate: "2018-12-31"
-    # score: ""
-    # courses: []
+    startDate: 2017-12-31
+    endDate: 2018-12-31
+  # UTN
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
     area: Ingeniería Electrónica (no finalizada)
     studyType: Ingeniería
-    startDate: "2017-12-31"
-    endDate: "2020-12-31"
+    startDate: 2017-12-31
+    endDate: 2020-12-31
     # endDate: null
-    # score: ""
-    # courses: []
   # - institution: Universidad Tecnológica Nacional
   #   url: https://utn.edu.ar/
   #   area: Sistemas / Software engineering
   #   studyType: Engineering degree
-  #   startDate: "2020-12-31"
+  #   startDate: 2020-12-31
   #   # endDate: null
-  #   # score: ""
-  #   # courses: []
+  # DaVinci
   - institution: DaVinci
     url: https://davinci.edu.ar/
     area: Diseño y Programación de Simuladores Virtuales
     studyType: Diseño multimedia (Videojuegos)
-    startDate: "2020-12-31"
+    startDate: 2020-12-31
     # endDate: null
-    # score: ""
-    # courses: []
 
 work:
   - name: Sartorius
     position: Pasante
-    startDate: "2017-02-28"
-    endDate: "2018-12-31"
+    startDate: 2017-02-28
+    endDate: 2018-12-31
     url: https://www.linkedin.com/company/sartorius/
     # url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
@@ -215,8 +208,8 @@ work:
 
   - name: Iquall Networks
     position: Ingeniero DevOps
-    startDate: "2019-09-01"
-    endDate: "2021-07-30"
+    startDate: 2019-09-01
+    endDate: 2021-07-30
     highlights:
       - Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.
       - Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).
@@ -233,8 +226,8 @@ work:
 
   - name: Telecom Argentina
     position: Ingeniero DevOps
-    startDate: "2021-07-01"
-    endDate: "2023-06-09"
+    startDate: 2021-07-01
+    endDate: 2023-06-09
     highlights:
       - Trabajé en un servicio de streaming masivo tanto en el frontend como en el backend.
       - Uso de tecnologías como orquestación de contenedores (EKS y Openshift, ECS).
@@ -251,8 +244,8 @@ work:
 
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
-    startDate: "2022-04-15"
-    endDate: "2024-09-15"
+    startDate: 2022-04-15
+    endDate: 2024-09-15
     highlights:
       - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
       - Uso de tecnologías como contenedores (Docker), Python y Ansible.
@@ -278,83 +271,83 @@ certificates:
 
   # Languages
 
-  - name: First Certificate in English (FCE) - ESOL International
+  - name: "First Certificate in English (FCE) - ESOL International"
     issuer: University of Cambridge
-    date: "2016-12-31"
+    date: 2016-12-31
 
-  - name: Deutsches Sprachdiplom II (DSD II)
+  - name: "Deutsches Sprachdiplom II (DSD II)"
     issuer: Kultusministerkonferenz (KMK)
-    date: "2016-10-27"
+    date: 2016-10-27
 
-  - name: Wirtschaftsdeutsch International
+  - name: "Wirtschaftsdeutsch International"
     issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
-    date: "2018-12-12"
+    date: 2018-12-12
 
   # BBZ
 
-  - name: Industriekaufmann (Junior Manager in industrial administration)
+  - name: "Industriekaufmann (Junior Manager in industrial administration)"
     issuer: Deutscher Industrie- und Handelskammertag (DIHK) und DE Berufsbildungszentrum (BBZ Instituto Ballerster)
-    date: "2018-11-27"
+    date: 2018-11-27
 
-  - name: Fachhochschulreife
+  - name: "Fachhochschulreife"
     issuer: Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
-    date: "2018-12-31"
+    date: 2018-12-31
 
   # Red Hat
 
   - name: "Red Hat OpenShift Development II: Containerizing Applications (DO288)"
     issuer: RedHat
-    date: "2021-10-15"
+    date: 2021-10-15
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568
 
   - name: "Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)"
     issuer: RedHat
-    date: "2021-09-23"
+    date: 2021-09-23
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94
 
   - name: "Building Resilient Microservices with Istio and Red Hat OpenShift Service Mesh (DO328)"
     issuer: RedHat
-    date: "2021-12-02"
+    date: 2021-12-02
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92
 
   # DevSecOps Academy
 
   - name: "Secure Container Images in CI/CD (Advanced)"
     issuer: DevSecOps Academy
-    date: "2022-02-12"
+    date: 2022-02-12
     url: https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2
 
   - name: "Building Secure Container Images in CI/CD with Clair"
     issuer: DevSecOps Academy
-    date: "2022-02-12"
+    date: 2022-02-12
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png
 
   - name: "Building Secure Container Images in CI/CD with Trivy"
     issuer: DevSecOps Academy
-    date: "2022-02-12"
+    date: 2022-02-12
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png
 
   - name: "Anchore for Secure Container Images"
     issuer: DevSecOps Academy
-    date: "2022-02-12"
+    date: 2022-02-12
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
   # AWS
 
-  - name: AWS Cloud Practitioner
+  - name: "AWS Cloud Practitioner"
     issuer: EducacionIT
-    date: "2021-06-30"
+    date: 2021-06-30
     url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
 
   # TODO: subir archivos a un s3 o drive y agregarlos
   - name: "AWS Technical Essentials"
     issuer: Amazon Web Services - AWS Training & Certification
-    date: "2022-03-07"
+    date: 2022-03-07
     # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
   - name: "Architecting on AWS"
     issuer: Amazon Web Services - AWS Training & Certification
-    date: "2022-03-17"
+    date: 2022-03-17
     # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
 languages:
@@ -371,8 +364,8 @@ projects:
       Tuve la oportunidad y la suerte de realizar un intercambio estudiantil con una familia increíble.
       Esta experiencia tuvo 2 partes: 3 meses en Alemania y 3 meses en los que mi compañero alemán vino a mi casa en Argentina.
       Fue una experiencia increíble que me permitió experimentar una nueva cultura y un nuevo idioma desde una perspectiva interna.
-    startDate: "2014-12-31"
-    endDate: "2015-02-28"
+    startDate: 2014-12-31
+    endDate: 2015-02-28
     # url: null
 
   - name: Impresora 3D desde cero
@@ -381,8 +374,8 @@ projects:
       La mayoría de las personas compran un kit preensamblado, pero en este caso tomó horas diseñar, forjar y construir pieza por pieza.
       Hubo muchas iteraciones y versiones, hasta que finalmente logramos nuestro objetivo.
       Aprendimos mucho con este proyecto, que requirió mucho trabajo de investigación, esfuerzo, incontables horas y trabajo en equipo.
-    startDate: "2016"
-    endDate: "2020"
+    startDate: 2016
+    endDate: 2020
     # url: null
 
   - name: Escáner de códigos de barras y lista de compras
@@ -390,8 +383,8 @@ projects:
       Para uso personal, compré un escáner de códigos de barras (como los del supermercado) y lo programé para que cada vez que se escanea un producto, se agregue a mi lista de compras.
       De esta manera, cada vez que iba al supermercado, tenía mi lista de compras sin esfuerzo.
       Utilicé Linux, Python y aprendí sobre web scraping para este proyecto.
-    startDate: "2021-01-01"
-    endDate: "2021-12-31"
+    startDate: 2021-01-01
+    endDate: 2021-12-31
     # url: null
 
   - name: TANKs
@@ -401,16 +394,16 @@ projects:
       Consistía en un área marcada y un robot con un compartimento, algunos sensores de control de acceso, proximidad y luz, y una conexión remota.
       Básicamente, después de añadir la carga, se indica el punto de referencia y el robot realiza la entrega.
       La forma en que funcionaba permitía agregar o quitar las rutas fácilmente, lo que lo hacía escalable y flexible de implementar.
-    startDate: "2019-01-01"
-    endDate: "2019-12-31"
+    startDate: 2019-01-01
+    endDate: 2019-12-31
     # url: null
 
   - name: Domótica
     summary: |
       Trabajé en un modelo interactivo de una casa y lo programé con múltiples sensores y placas Arduino.
       Incluyó demostraciones de iluminación automatizada, aperturas y refrigeración inteligente.
-    startDate: "2016-01-01"
-    endDate: "2016-12-31"
+    startDate: 2016-01-01
+    endDate: 2016-12-31
     # url: null
 
   - name: Otros Proyectos
