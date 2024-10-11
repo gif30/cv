@@ -11,39 +11,11 @@ basics:
   image: https://github.com/gif30/cv/raw/main/me.jpg
 
   summary: |
-    I've been working as a DevOps engineer for years now, honing my skills and knowledge along the way.
-    I'm mostly self-taught, but I've also earned certifications because I genuinely enjoy learning and staying updated with the latest tech.
-    Teaching, contributing, and helping others innovate? It's my thing. Technology is my passion, and I dive into it with excitement.
-    I bring an analytical, curious, transparent, and open-minded approach to the table, which makes collaborating with others a breeze.
-    If you'd like to know more about me and find my profile interesting, feel free to reach out! I'm eager to connect and explore opportunities.
+    I've been working as a DevOps engineer for several years, continuously honing my skills and knowledge. While I'm mostly self-taught, I've also pursued certifications because I genuinely enjoy learning and staying up to date with the latest technologies. Teaching, contributing, and helping others innovate? That's my thing. Technology is my passion, and I approach it with excitement and curiosity. I bring an analytical, transparent, and open-minded mindset, which makes collaborating with others a seamless and rewarding experience.
 
-  # I was born in 1998 in Buenos Aires, Argentina. I attended a German school where I learned a lot about the language and culture.
-  # I love learning new things, teaching, and contributing to innovation. That's why technology is my passion.
-  # I am also analytical, curious, transparent, and open-minded, which greatly benefits my collaboration with others.
-  # If you would like to know more about me and found my profile interesting, please don't hesitate to reach out!
+    In terms of expertise, I'm particularly passionate about Docker and Kubernetes, with strong programming skills. I have a solid grasp of DevOps, Agile methodologies, and organizational best practices, and I love helping teams restructure to reach optimal performance without unnecessary stress. I've worked extensively in both Cloud and On-Premises environments and have experience in Security, QA, Observability, and Communication.
 
-  # I have been a DevOps engineer for years now. I'm mostly self-thought with some certifications because I love learning new things.
-  # I also find amusing to teach, and contribute and help others in order to innovate. That's why technology is my passion.
-  # I am also analytical, curious, transparent, and open-minded, which greatly benefits my collaboration with others.
-  # If you would like to know more about me and found my profile interesting, please don't hesitate to reach out!
-
-  # As an experienced DevOps engineer, I have continually refined my skills and knowledge over the years. While primarily self-taught, I have also earned certifications to fuel my passion for learning and embracing new technologies.
-  # I derive immense satisfaction from teaching, contributing, and supporting others in their pursuit of innovation. This drive stems from my unwavering passion for technology.
-  # My analytical, curious, transparent, and open-minded nature greatly facilitates collaboration with colleagues and stakeholders.
-  # If you would like to know more about me and found my profile interesting, please don't hesitate to reach out!
-
-  # Mi pasión está en poder mejorar la tecnología o estrategias que enriquezcan y mejoren nuestras vidas.
-  # Aunque la educación allí estaba orientada a letras y ciencias naturales, descubrí con el tiempo que lo que me apasionaba realmente era resolver problemas y rompecabezas.
-  # Por eso mismo la tecnología y la programación fue lo que mas me atrajo y decidí estudiar Ingeniería electrónica apenas termine el secundario.
-  # Para expandir mis áreas de conocimiento y obtener experiencia laboral a temprana edad, decidí hacer un terciario en paralelo a la universidad como junior manager en administración industrial (Industriekaufmann).
-  # Además de obtener conocimientos empresariales básicos, tuve mi primera experiencia laboral, donde fui rotando de sector en sector para tener un panorama general de todos los sectores de una empresa.
-  # Una vez terminado dicho terciario Comencé mi carrera en una técnica donde trabaje por poco tiempo como ingeniero de redes y luego como ingeniero DevOps (mi trabajo actual)
-
-  # summary: |
-  #   Mi pro-actividad y mi interés por el aprendizaje son dos de mis cualidades mas altas.
-  #   Esto no solo lo digo yo: se puede ver reflejado en mi actividad en el ultimo tiempo. Al apenas haber terminado el colegio, comencé a estudiar Ingeniería Electrónica, un terciario en administración industrial y complementando el terciario con mi primera experiencia laboral. Sumado a esto, en mi tiempo libre suelo trabajar en proyectos personales.
-  #   Si eso no es ser pro-activo, entonces no se que lo será!
-  #   Fuera de eso, se me da muy bien el compañerismo y el trabajo en equipo, manejando el respeto y la solidaridad, para poder llegar mucho más lejos entre todos.
+    If you'd like to know more or find my profile interesting, feel free to reach out! I'm always eager to connect and explore new opportunities.
 
   website: https://german.fodino.net/
   email: german.fodino@gmail.com
@@ -172,41 +144,41 @@ education:
     url: https://www.pestalozzi.edu.ar/
     area: elementary, secondary and high school
     studyType: Baccalaureate specialized in natural sciences, literature and languages
-    startDate: 2011-12-31
-    endDate: 2016-12-31
+    startDate: "2011.12.31"
+    endDate: "2016.12.31"
   - institution: BBZ - BerufsBildungsZentrum # - Professional Training Center (Ballester Institute)
     url: https://bbz.iballester.edu.ar/
     area: Business, management, marketing and related disciplines
     studyType: Junior Manager in industrial administration (Industriekaufmann)
-    startDate: 2017-12-31
-    endDate: 2018-12-31
+    startDate: "2017.12.31"
+    endDate: "2018.12.31"
   # UTN
   - institution: Universidad Tecnológica Nacional (UTN FRBA)
     url: https://utn.edu.ar/
     area: Electronic engineering (not finished)
     studyType: Engineering degree
-    startDate: 2017-12-31
-    endDate: 2020-12-31
+    startDate: "2017.12.31"
+    endDate: "2020.12.31"
     # endDate: null
   # - institution: Universidad Tecnológica Nacional
   #   url: https://utn.edu.ar/
   #   area: Sistemas / Software engineering
   #   studyType: Engineering degree
-  #   startDate: 2020-12-31
+  #   startDate: "2020.12.31"
   #   # endDate: null
   # DaVinci
   - institution: DaVinci
     url: https://davinci.edu.ar/
     area: Design and Programming of Virtual Simulators
     studyType: Multimedia design (Videogames)
-    startDate: 2020-12-31
+    startDate: "2020.12.31"
     # endDate: null
 
 work:
   - name: Sartorius
     position: Intern
-    startDate: 2017-02-28
-    endDate: 2018-12-31
+    startDate: "2017.02.28"
+    endDate: "2018.12.31"
     url: https://www.linkedin.com/company/sartorius/
     # url: https://www.linkedin.com/company/15749
     location: Buenos Aires, Argentina
@@ -224,8 +196,8 @@ work:
 
   - name: Iquall Networks
     position: DevOps Engineer
-    startDate: 2019-09-01
-    endDate: 2021-07-30
+    startDate: "2019.09.01"
+    endDate: "2021.07.30"
     url: https://www.linkedin.com/company/iquall-networks/
     # url: https://www.linkedin.com/company/206170
     location: Ciudad Autónoma de Buenos Aires, Argentina
@@ -242,8 +214,8 @@ work:
 
   - name: Telecom Argentina
     position: DevOps Engineer
-    startDate: 2021-07-01
-    endDate: 2023-06-09
+    startDate: "2021.07.01"
+    endDate: "2023.06.09"
     url: https://www.linkedin.com/company/telecom-argentina/
     # url: https://www.linkedin.com/company/209495
     location: Ciudad Autónoma de Buenos Aires, Argentina
@@ -260,8 +232,8 @@ work:
 
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
-    startDate: 2023-04-15
-    endDate: 2024-09-15
+    startDate: "2023.04.15"
+    endDate: "2024.09.15"
     url: https://www.linkedin.com/company/banco-santander/
     location: Málaga, Spain
     highlights:
@@ -288,81 +260,81 @@ certificates:
 
   - name: "First Certificate in English (FCE) - ESOL International"
     issuer: University of Cambridge
-    date: 2016-12-31
+    date: "2016.12.31"
 
   - name: "Deutsches Sprachdiplom II (DSD II)"
     issuer: Kultusministerkonferenz (KMK)
-    date: 2016-10-27
+    date: "2016.10.27"
 
   - name: "Wirtschaftsdeutsch International"
     issuer: Deutsch-Argentinische Industrie- und Handelskammer (AHK)
-    date: 2018-12-12
+    date: "2018.12.12"
 
   # BBZ
 
   - name: "Industriekaufmann (Junior Manager in industrial administration)"
     issuer: Deutscher Industrie- und Handelskammertag (DIHK) und DE Berufsbildungszentrum (BBZ Instituto Ballerster)
-    date: 2018-11-27
+    date: "2018.11.27"
 
   - name: "Fachhochschulreife"
     issuer: Botschaft der Bundesrepublik Deutschland und Ballester Institut (Buenos Aires)
-    date: 2018-12-31
+    date: "2018.12.31"
 
   # Red Hat
 
   - name: "Red Hat OpenShift Development II: Containerizing Applications (DO288)"
     issuer: RedHat
-    date: 2021-10-15
+    date: "2021.10.15"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/da66954b-c582-4e9a-9e6a-b43e4e557568
 
   - name: "Red Hat OpenShift Administration II: Operating a Production Kubernetes Cluster (DO280)"
     issuer: RedHat
-    date: 2021-09-23
-    url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe57225-4683-4630-840b-332db995ee94
+    date: "2021.09.23"
+    url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/6fe"57225.4683.4630"-840b-332db995ee94
 
   - name: "Building Resilient Microservices with Istio and Red Hat OpenShift Service Mesh (DO328)"
     issuer: RedHat
-    date: 2021-12-02
+    date: "2021.12.02"
     url: https://rol.redhat.com/rol/api/certificates/attendance/uuid/d4d0c7e8-f4e8-4f4e-aba9-11ffebcebc92
 
   # DevSecOps Academy
 
   - name: "Secure Container Images in CI/CD (Advanced)"
     issuer: DevSecOps Academy
-    date: 2022-02-12
-    url: https://www.devsecops-academy.com/certificate-of-progress/8f165594-2974-4986-8d35-fd8fffa3b0a2
+    date: "2022.02.12"
+    url: https://www.devsecops-academy.com/certificate-of-progress/8f"165594.2974.4986"-8d35-fd8fffa3b0a2
 
   - name: "Building Secure Container Images in CI/CD with Clair"
     issuer: DevSecOps Academy
-    date: 2022-02-12
+    date: "2022.02.12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c750233a-c205-4478-a8b7-136caef35b9c.png
 
   - name: "Building Secure Container Images in CI/CD with Trivy"
     issuer: DevSecOps Academy
-    date: 2022-02-12
+    date: "2022.02.12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_c558ffe7-1d67-48de-a747-cafe15c267d7.png
 
   - name: "Anchore for Secure Container Images"
     issuer: DevSecOps Academy
-    date: 2022-02-12
+    date: "2022.02.12"
     url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
   # AWS
 
   - name: "AWS Cloud Practitioner"
     issuer: EducacionIT
-    date: 2021-06-30
+    date: "2021.06.30"
     url: https://certificados.educacionit.com/api/German-Fodino-1A624322/1A50732
 
   # TODO: subir archivos a un s3 o drive y agregarlos
   - name: "AWS Technical Essentials"
     issuer: Amazon Web Services - AWS Training & Certification
-    date: 2022-03-07
+    date: "2022.03.07"
     # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
   - name: "Architecting on AWS"
     issuer: Amazon Web Services - AWS Training & Certification
-    date: 2022-03-17
+    date: "2022.03.17"
     # url: https://certificates.devsecops-academy.com/certificate_of_German_Fodino_07f0b511-049e-4683-8ea4-88670b90fda4.png
 
 languages:
@@ -379,8 +351,8 @@ projects:
       I had the oportunity and luck to realize an student exchange with an amazing family.
       This experience had 2 parts: 3 months in Germany and 3 mounths where my german partner came to my home in Argentina.
       It was an amazing experience that allowed me to experience a new culture and language from an inner perspective.
-    startDate: 2014-12-31
-    endDate: 2015-02-28
+    startDate: "2014.12.31"
+    endDate: "2015.02.28"
     # url: null
 
   - name: 3D Printer from scratch
@@ -398,8 +370,8 @@ projects:
       For my personal use y bought a barcode scanner (like the ones on the supermarket) and programmed it so that every time a product gets scanned, it gets added to my shoplist.
       This way, every time I went to the supermarket, I had my shopping list effortless.
       I used linux, python and learnt web scraping. for this proyect.
-    startDate: 2021-01-01
-    endDate: 2021-12-31
+    startDate: "2021.01.01"
+    endDate: "2021.12.31"
     # url: null
 
   - name: TANKs
@@ -409,16 +381,16 @@ projects:
       It consisted on a landmarked area and a robot with a compartment, some access control, proximity and light sensors and a remote connection
       Basically after loading the payload, you indicated the waypoint, and the robot realizes the delivery.
       By the way it worked, you could add or remove the routes easily which made it scalable and flexible to implement.
-    startDate: 2019-01-01
-    endDate: 2019-12-31
+    startDate: "2019.01.01"
+    endDate: "2019.12.31"
     # url: null
 
   - name: Domotics
     summary: |
       I worked on an interactive model of a home,and programmed it with multiple sensors and Arduino boards.
       It involved demonstration of automated lighting, openings and smart refrigeration.
-    startDate: 2016-01-01
-    endDate: 2016-12-31
+    startDate: "2016.01.01"
+    endDate: "2016.12.31"
     # url: null
 
   - name: Other Projects

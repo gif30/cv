@@ -44,6 +44,13 @@ yarn run export-html
 yarn run export-spanish
 ```
 
+## upgrade packages version to latest
+
+``` bash
+npm install -g yarn-upgrade-all
+yarn-upgrade-all
+```
+
 ## print nuevo de CV
 
 Me gusto esta pagina <https://carbon.now.sh/> para realizar un png con mi yaml y pasarlo a pdf. Habria que automatizarlo ya que cuando lo hice imprimi mas ancho por el texto y eliminar los comentarios

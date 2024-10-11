@@ -69,15 +69,13 @@
 			</div>
 		</div>
 	</section>
-<!-- Summary -->
+	<!-- Summary -->
 	<section id="about" class="row">
 		<aside class="col-sm-3">
 			<h3>Summary</h3>
 		</aside>
 		<div class="col-sm-9">
-		{{#summary}}
-			<p>{{.}}</p>
-		{{/summary}}
+			{{splitLines summary}}
 		</div>
 	</section>
 <!-- Social Media -->

@@ -14,7 +14,6 @@
     "view": "yarn run export && xdg-open build/index.html",
     "view-pdf": "yarn run export-pdf && open build/cv.pdf",
     "predeploy": "yarn run export-html",
-    "predeploy-spanish": "yarn run export-spanish",
     "test": "resume export build/index.html --resume cv.yaml --theme kendall && open build/index.html",
     "deploy": "echo 'german.fodino.net' > ./build/CNAME && gh-pages -d build/"
   },
@@ -29,22 +28,22 @@
   },
   "homepage": "https://github.com/gif30/cv#readme",
   "dependencies": {
-    "gh-pages": "^3.2.3",
-    "handlebars": "^4.7.7",
+    "gh-pages": "^6.2.0",
+    "handlebars": "^4.7.8",
     "helper-markdown": "^1.0.0",
-    "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-actual": "^0.2.2",
     "jsonresume-theme-elegant": "^1.16.1",
-    "jsonresume-theme-eloquent-mod": "^4.23.0",
+    "jsonresume-theme-eloquent-mod": "^4.24.0",
     "jsonresume-theme-flat": "^0.3.7",
     "jsonresume-theme-full": "^0.0.4",
     "jsonresume-theme-github": "^0.0.5",
     "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-kwan": "^0.0.2",
     "jsonresume-theme-paper": "^0.5.0",
-    "jsonresume-theme-stackoverflow": "^2.0.0",
-    "jsonresume-theme-standard-resume": "^1.3.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "jsonresume-theme-standard-resume": "^2.1.0",
     "jsonresume-theme-tan-responsive": "^0.0.7",
-    "resume-cli": "^3.0.7",
+    "resume-cli": "^3.1.2",
     "yamljs": "^0.3.0"
   }
 }
