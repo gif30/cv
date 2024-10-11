@@ -36,12 +36,12 @@ npm run export-html
 
 ``` bash
 # esto
-npm run export-localtheme
+yarn run export-localtheme
 # o esto
 export JSONCV_THEME=flat
-npm run export-html
+yarn run export-html
 # o en español
-npm run export-spanish
+yarn run export-spanish
 ```
 
 ## print nuevo de CV
