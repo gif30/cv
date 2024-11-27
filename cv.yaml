@@ -78,6 +78,7 @@ skills:
     level: Very Advanced
     keywords:
       - Amazon Web Services (AWS)
+      - Azure and GCP as well
       - Infrastructure as code (IaC) CDK
       - Serverless (Lambda)
       - VMs (EC2)
