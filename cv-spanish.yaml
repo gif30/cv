@@ -72,6 +72,7 @@ skills:
     level: Very Advanced
     keywords:
       - Amazon Web Services (AWS)
+      - Azure y GCP tambien
       - Infrastructura como código (IaC) CDK
       - Serverless (Lambda)
       - VMs (EC2)
@@ -169,42 +170,23 @@ education:
     # endDate: null
 
 work:
-  - name: Sartorius
-    position: Pasante
-    startDate: "2017.02.28"
-    endDate: "2018.12.31"
-    url: https://www.linkedin.com/company/sartorius/
-    # url: https://www.linkedin.com/company/15749
-    location: Buenos Aires, Argentina
+  - name: Santander (via Talan)
+    position: DevOps Engineer / Comms Engineer
+    startDate: "2023.04.15"
+    endDate: "2024.09.15"
+    url: https://www.linkedin.com/company/banco-santander/
+    location: Málaga, Spain
     highlights:
-      - Servicio técnico
-      - Ventas
-      - Finanzas - Cobranzas y Tesorería
-      - Operaciones comerciales - Comercio exterior, Servicio al cliente, Licitaciones y Facturación
-      - Aseguramiento de calidad y Control de calidad
-      - Almacén y Logística
-      - Recepción
+      - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
+      - Uso de tecnologías como contenedores (Docker), Python y Ansible.
+      - Trabajé con balanceadores F5, ServiceNow, Infoblox y routers y switches de Cisco.
+      - Rotación y gestión de certificados a gran escala.
+      - Gestión de DNS, DHCP y enrutamiento a gran escala.
+      - Gestión de CMDB y sistemas de tickets para cumplimiento e integración.
+      - Gestión y automatización de despliegues e instancias en AWS
     summary: |
-      Mi primera experiencia laboral en el área de ventas.
-      Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio de "aprender haciendo" para obtener una visión general de todos los sectores de una empresa.
-
-  - name: Iquall Networks
-    position: Ingeniero DevOps
-    startDate: "2019.09.01"
-    endDate: "2021.07.30"
-    url: https://www.linkedin.com/company/iquall-networks/
-    # url: https://www.linkedin.com/company/206170
-    location: Ciudad Autónoma de Buenos Aires, Argentina
-    highlights:
-      - Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.
-      - Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).
-      - Trabajé en la implementación del lado del servidor en ambos proyectos (frontend y backend).
-      - Adquirí experiencia con herramientas de scripting y plantillas como Python, shell, Jinja2 y Ansible.
-      - Uso de tecnologías de contenedores como Kubernetes, Docker y docker-compose.
-      - Uso de herramientas de monitoreo como Prometheus, Influx y Grafana y sistemas de alerta.
-    summary: |
-      Mi primera experiencia laboral como Ingeniero DevOps.
-      Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
+      Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
+      He trabajado aquí para el área de Redes y Comunicaciones y en Production Shared Services de la división Santander CIB Global (Corporate & Investment Banking).
 
   - name: Telecom Argentina
     position: Ingeniero DevOps
@@ -224,23 +206,42 @@ work:
       Telecom es una de las empresas de telecomunicaciones más grandes (si no la más grande) en Argentina.
       Trabajé aquí en la industria de streaming y televisión en FLOW (la plataforma de streaming más grande de Argentina).
 
-  - name: Santander (via Talan)
-    position: DevOps Engineer / Comms Engineer
-    startDate: "2023.04.15"
-    endDate: "2024.09.15"
-    url: https://www.linkedin.com/company/banco-santander/
-    location: Málaga, Spain
+  - name: Iquall Networks
+    position: Ingeniero DevOps
+    startDate: "2019.09.01"
+    endDate: "2021.07.30"
+    url: https://www.linkedin.com/company/iquall-networks/
+    # url: https://www.linkedin.com/company/206170
+    location: Ciudad Autónoma de Buenos Aires, Argentina
     highlights:
-      - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
-      - Uso de tecnologías como contenedores (Docker), Python y Ansible.
-      - Trabajé con balanceadores F5, ServiceNow, Infoblox y routers y switches de Cisco.
-      - Rotación y gestión de certificados a gran escala.
-      - Gestión de DNS, DHCP y enrutamiento a gran escala.
-      - Gestión de CMDB y sistemas de tickets para cumplimiento e integración.
-      - Gestión y automatización de despliegues e instancias en AWS
+      - Trabajé en un proyecto de IoT destinado a verificar la calidad de experiencia (QoE) y la calidad de servicio (QoS) en el negocio de las telecomunicaciones (Mobiprobe Sonar). Automatizé todo el procedimiento de implementación y actualización del equipo, para trabajar con ellos de forma remota sin intervención humana.
+      - Trabajé en una plataforma muy flexible para automatizar la configuración de equipos de redes (MAT).
+      - Trabajé en la implementación del lado del servidor en ambos proyectos (frontend y backend).
+      - Adquirí experiencia con herramientas de scripting y plantillas como Python, shell, Jinja2 y Ansible.
+      - Uso de tecnologías de contenedores como Kubernetes, Docker y docker-compose.
+      - Uso de herramientas de monitoreo como Prometheus, Influx y Grafana y sistemas de alerta.
     summary: |
-      Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
-      He trabajado aquí para el área de Redes y Comunicaciones y en Production Shared Services de la división Santander CIB Global (Corporate & Investment Banking).
+      Mi primera experiencia laboral como Ingeniero DevOps.
+      Trabajé en la industria de las telecomunicaciones, principalmente en IoT, monitoreo y automatización.
+
+  - name: Sartorius
+    position: Pasante
+    startDate: "2017.02.28"
+    endDate: "2018.12.31"
+    url: https://www.linkedin.com/company/sartorius/
+    # url: https://www.linkedin.com/company/15749
+    location: Buenos Aires, Argentina
+    highlights:
+      - Servicio técnico
+      - Ventas
+      - Finanzas - Cobranzas y Tesorería
+      - Operaciones comerciales - Comercio exterior, Servicio al cliente, Licitaciones y Facturación
+      - Aseguramiento de calidad y Control de calidad
+      - Almacén y Logística
+      - Recepción
+    summary: |
+      Mi primera experiencia laboral en el área de ventas.
+      Pasantía con rotación por diferentes sectores dentro de la empresa, a través del principio de "aprender haciendo" para obtener una visión general de todos los sectores de una empresa.
 
 certificates:
   # Colegio

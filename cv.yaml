@@ -176,42 +176,23 @@ education:
     # endDate: null
 
 work:
-  - name: Sartorius
-    position: Intern
-    startDate: "2017.02.28"
-    endDate: "2018.12.31"
-    url: https://www.linkedin.com/company/sartorius/
-    # url: https://www.linkedin.com/company/15749
-    location: Buenos Aires, Argentina
+  - name: Santander (via Talan)
+    position: DevOps Engineer / Comms Engineer
+    startDate: "2023.04.15"
+    endDate: "2024.09.15"
+    url: https://www.linkedin.com/company/banco-santander/
+    location: Málaga, Spain
     highlights:
-      - Technical service
-      - Sales
-      - Finance - Collections and Treasury
-      - Commercial Operations - Foreign Trade, Customer Service, Bidding and Billing
-      - Quality Assurance and Quality Control
-      - Warehouse and Logistics
-      - Reception
+      - Worked on automation and infrastructure for the Networking and Communications area.
+      - Usage of technologies such as containers (Docker), Python and Ansible.
+      - Worked with F5 Balancers, ServiceNow, Infoblox and Cisco routers and switches.
+      - Large scale certificates rotation and management.
+      - Large scale DNS, DHCP and enrouting management.
+      - CMDB and ticketing system management for compliance and integration.
+      - Automation and management of deployments and instances in AWS
     summary: |
-      My first working experience in the sales business.
-      Internship with rotation through different sectors within the company, through the "learning-by-doing" principle to obtain an overview of all sectors of a company.
-
-  - name: Iquall Networks
-    position: DevOps Engineer
-    startDate: "2019.09.01"
-    endDate: "2021.07.30"
-    url: https://www.linkedin.com/company/iquall-networks/
-    # url: https://www.linkedin.com/company/206170
-    location: Ciudad Autónoma de Buenos Aires, Argentina
-    highlights:
-      - Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.
-      - Worked on a very flexible platfor to automate networking equipment configuration (MAT).
-      - Worked on the server side deployment deployment on both proyects (frontend and backend).
-      - Adquire some experience with scripting and templating tooling like Python, shell, Jinja2 y  Ansible.
-      - Use of containers tecnologies such as Kubernetes, Docker and docker-compose.
-      - Use of monitoring tooling such as Prometheus, Influx y Grafana and alerting systems.
-    summary: |
-      My first working experience as DevOps.
-      Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
+      Santander is one of the largest (if not the largest) Bank in Spain and one of the biggest in the world.
+      I've worked here for the Networking and Communications area and in Production Shared Services at Santander CIB Global division (Corporate & Investment Banking)
 
   - name: Telecom Argentina
     position: DevOps Engineer
@@ -231,23 +212,42 @@ work:
       Telecom is one of the largest (if not the largest) telecomunication enterprise in Argentina.
       I've worked here for the streaming and television industry on FLOW (the biggest streaming platform in Argentina)
 
-  - name: Santander (via Talan)
-    position: DevOps Engineer / Comms Engineer
-    startDate: "2023.04.15"
-    endDate: "2024.09.15"
-    url: https://www.linkedin.com/company/banco-santander/
-    location: Málaga, Spain
+  - name: Iquall Networks
+    position: DevOps Engineer
+    startDate: "2019.09.01"
+    endDate: "2021.07.30"
+    url: https://www.linkedin.com/company/iquall-networks/
+    # url: https://www.linkedin.com/company/206170
+    location: Ciudad Autónoma de Buenos Aires, Argentina
     highlights:
-      - Worked on automation and infrastructure for the Networking and Communications area.
-      - Usage of technologies such as containers (Docker), Python and Ansible.
-      - Worked with F5 Balancers, ServiceNow, Infoblox and Cisco routers and switches.
-      - Large scale certificates rotation and management.
-      - Large scale DNS, DHCP and enrouting management.
-      - CMDB and ticketing system management for compliance and integration.
-      - Automation and management of deployments and instances in AWS
+      - Worked on an IoT proyect intended to check the quality of experience (QoE) and the quality of service (QoS) on the telecomunication Business (Mobiprobe Sonar). I've automated the whole deployment procedure and update of the equipment, to work with them remotelly without human intervention.
+      - Worked on a very flexible platfor to automate networking equipment configuration (MAT).
+      - Worked on the server side deployment deployment on both proyects (frontend and backend).
+      - Adquire some experience with scripting and templating tooling like Python, shell, Jinja2 y  Ansible.
+      - Use of containers tecnologies such as Kubernetes, Docker and docker-compose.
+      - Use of monitoring tooling such as Prometheus, Influx y Grafana and alerting systems.
     summary: |
-      Santander is one of the largest (if not the largest) Bank in Spain and one of the biggest in the world.
-      I've worked here for the Networking and Communications area and in Production Shared Services at Santander CIB Global division (Corporate & Investment Banking)
+      My first working experience as DevOps.
+      Worked for the telecomunication Industry. Mostly IoT, monitoring and automation.
+
+  - name: Sartorius
+    position: Intern
+    startDate: "2017.02.28"
+    endDate: "2018.12.31"
+    url: https://www.linkedin.com/company/sartorius/
+    # url: https://www.linkedin.com/company/15749
+    location: Buenos Aires, Argentina
+    highlights:
+      - Technical service
+      - Sales
+      - Finance - Collections and Treasury
+      - Commercial Operations - Foreign Trade, Customer Service, Bidding and Billing
+      - Quality Assurance and Quality Control
+      - Warehouse and Logistics
+      - Reception
+    summary: |
+      My first working experience in the sales business.
+      Internship with rotation through different sectors within the company, through the "learning-by-doing" principle to obtain an overview of all sectors of a company.
 
 certificates:
   # Colegio
