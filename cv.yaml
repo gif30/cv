@@ -77,9 +77,7 @@ skills:
   - name: Cloud Computing
     level: Very Advanced
     keywords:
-      - Amazon Web Services (AWS)
-      - Azure and GCP as well
-      - Infrastructure as code (IaC) CDK
+      - Clouds AWS, Azure, GCP
       - Serverless (Lambda)
       - VMs (EC2)
       - Containers (EKS, ECS)
