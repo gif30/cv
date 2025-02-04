@@ -179,17 +179,18 @@ work:
   - name: Santander (via Talan)
     position: DevOps Engineer / Comms Engineer
     startDate: "2023.04.15"
-    endDate: "2024.09.15"
+    endDate: "2025.01.28"
     url: https://www.linkedin.com/company/banco-santander/
     location: Málaga, Spain
     highlights:
-      - Worked on automation and infrastructure for the Networking and Communications area.
       - Usage of technologies such as containers (Docker), Python and Ansible.
-      - Worked with F5 Balancers, ServiceNow, Infoblox and Cisco routers and switches.
-      - Large scale certificates rotation and management.
-      - Large scale DNS, DHCP and enrouting management.
+      - Automation and management of deployments and instances in Cloud AWS and Azure.
+      - Infrastructure Testing and QA.
       - CMDB and ticketing system management for compliance and integration.
-      - Automation and management of deployments and instances in AWS
+      - Worked also on automation and infrastructure for the Networking and Communications area.
+      # - Worked with F5 Balancers, ServiceNow, Infoblox and Cisco routers and switches.
+      # - Large scale certificates rotation and management.
+      # - Large scale DNS, DHCP and enrouting management.
     summary: |
       Santander is one of the largest (if not the largest) Bank in Spain and one of the biggest in the world.
       I've worked here for the Networking and Communications area and in Production Shared Services at Santander CIB Global division (Corporate & Investment Banking)
