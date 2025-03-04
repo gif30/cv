@@ -11,7 +11,7 @@ basics:
   image: https://github.com/gif30/cv/raw/main/me.jpg
 
   summary: |
-    Vengo trabajando como ingeniero DevOps desde hace varios años, perfeccionando mis habilidades y conocimientos a medida que avanzo. Soy en gran parte autodidacta, pero también hice certificaciones porque me encanta aprender y estar siempre al día con lo último en tecnología. Me apasiona enseñar, colaborar y ayudar a que otros innoven. La tecnología es lo que me mueve, y la encaro con entusiasmo y curiosidad. Además, me gusta mantener una mentalidad analítica, transparente y de mente abierta, lo que hace que trabajar en equipo sea algo natural y fluido.
+    Trabajo como ingeniero DevOps desde hace varios años, perfeccionando mis habilidades y conocimientos a medida que avanzo. Soy en gran parte autodidacta, pero también hice multiples certificaciones porque me encanta aprender y estar siempre al día con lo último en tecnología. Me apasiona enseñar, colaborar y ayudar a que otros innoven. La tecnología es lo que me mueve, y la encaro con entusiasmo y curiosidad. Además, me gusta mantener una mentalidad analítica, transparente y de mente abierta, lo que hace que trabajar en equipo sea algo natural y fluido.
 
     En cuanto a mi expertise, soy un apasionado de Docker y Kubernetes, y tengo muy buenas bases en programación. Manejo con seguridad las mejores prácticas en DevOps, metodologías ágiles y organización de equipos, y disfruto ayudando a los equipos a reorganizarse para alcanzar su mejor rendimiento sin estrés de más. Tengo experiencia tanto en entornos Cloud como On-Premises, y manejo áreas como Seguridad, QA, Observabilidad y Comunicación.
 
@@ -56,6 +56,12 @@ skills:
       - VMs, Containers & Serverless
       - Integraciones de QA y seguridad
       - Agile (Scrum/Kanban)
+      # - Observability (Prometheus, Grafana, Loki, AlertManager)
+      # - Networking (Service Mesh, API Gateway)
+      # - Automation (Ansible, Puppet, Chef)
+      # - Monitoring (Prometheus, Grafana, Loki, AlertManager)
+      # - Logging (Loki, ElasticSearch (ELK), Fluentd)
+      # - Alerting (AlertManager, Alerta.io, Slack)
 
   - name: Containers
     level: Master
@@ -72,7 +78,8 @@ skills:
     level: Very Advanced
     keywords:
       - Amazon Web Services (AWS)
-      - Azure y GCP tambien
+      - Microsoft Azure
+      - Google Cloud Platform (GCP)
       - Infrastructura como código (IaC) CDK
       - Serverless (Lambda)
       - VMs (EC2)
@@ -171,19 +178,20 @@ education:
 
 work:
   - name: Santander (via Talan)
-    position: DevOps Engineer / Comms Engineer
+    position: DevOps Engineer
     startDate: "2023.04.15"
-    endDate: "2024.09.15"
+    endDate: "2025.01.28"
     url: https://www.linkedin.com/company/banco-santander/
     location: Málaga, Spain
     highlights:
-      - Trabajé en automatización e infraestructura para el área de Redes y Comunicaciones.
-      - Uso de tecnologías como contenedores (Docker), Python y Ansible.
-      - Trabajé con balanceadores F5, ServiceNow, Infoblox y routers y switches de Cisco.
-      - Rotación y gestión de certificados a gran escala.
-      - Gestión de DNS, DHCP y enrutamiento a gran escala.
+      - Gestión y automatización de despliegues e instancias en AWS y Azure
+      - Uso de tecnologías de contenedores (Docker), Python y Ansible.
+      - Testing de Infraestructura y QA.
       - Gestión de CMDB y sistemas de tickets para cumplimiento e integración.
-      - Gestión y automatización de despliegues e instancias en AWS
+      - Trabajos realizados en automatización e infraestructura para el área de Redes y Comunicaciones.
+      # - Trabajé con balanceadores F5, ServiceNow, Infoblox y routers y switches de Cisco.
+      # - Rotación y gestión de certificados a gran escala.
+      # - Gestión de DNS, DHCP y enrutamiento a gran escala.
     summary: |
       Santander es uno de los bancos más grandes (si no el más grande) de España y uno de los mayores del mundo.
       He trabajado aquí para el área de Redes y Comunicaciones y en Production Shared Services de la división Santander CIB Global (Corporate & Investment Banking).
